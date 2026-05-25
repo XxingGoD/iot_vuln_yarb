@@ -1,8 +1,0 @@
-{
-    "GBHackers Security | #1 Globally Trusted Cyber Security News Platform": {
-        "QNAP Flaw Allows Attackers to Bypass Authentication": {
-            "url": "https://gbhackers.com/qnap-flaw/",
-            "summary": "【文章URL链接】：https://gbhackers.com/qnap-flaw/\n【文章标题】：QNAP Flaw Allows Attackers to Bypass Authentication\n【文章摘要】：QNAP Systems released security patches for QVR firmware in legacy VioStor NVR systems, addressing two vulnerabilities: an improper authentication flaw (CVE-2025-52856) that allows unauthorized access, and a path traversal vulnerability (CVE-2025-52861) that can lead to unauthorized file access once admin access is gained. Both vulnerabilities are classified as \"Important\" severity."
-        }
-    }
-}

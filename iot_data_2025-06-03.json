@@ -1,8 +1,0 @@
-{
-    "GBHackers Security | #1 Globally Trusted Cyber Security News Platform": {
-        "Critical MediaTek Flaws Allow Hackers to Gain Elevated Access with No User Input": {
-            "url": "https://gbhackers.com/mediatek-flaws/",
-            "summary": "【文章URL链接】：https://gbhackers.com/mediatek-flaws/\n【文章标题】：Critical MediaTek Flaws Allow Hackers to Gain Elevated Access with No User Input\n【文章摘要】：MediaTek芯片存在多个安全漏洞，包括高危堆溢出和多个中危漏洞，允许攻击者在无需用户输入的情况下获得提升权限，影响智能手机、平板、AIoT设备等多种产品。"
-        }
-    }
-}
