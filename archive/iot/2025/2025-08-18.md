@@ -1,0 +1,12 @@
+# IoT设备安全漏洞资讯（2025-08-18）
+
+## 安全客-有思想的安全新媒体
+
+### [研究人员将发布FortiWeb身份验证完全绕过漏洞利用代码](https://www.anquanke.com/post/id/311301)
+
+【文章URL链接】：https://www.anquanke.com/post/id/311301
+【文章标题】：研究人员将发布FortiWeb身份验证完全绕过漏洞利用代码
+【文章摘要】：研究人员发布了FortiWeb网络应用防火墙的身份验证绕过漏洞利用代码，该漏洞允许攻击者通过伪造认证Cookie冒充任何用户，包括管理员。漏洞影响特定版本的FortiWeb，并已由Fortinet修复。
+
+---
+

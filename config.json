@@ -1,0 +1,164 @@
+{
+    "proxy": {
+        "url": false,
+        "rss": false,
+        "bot": false,
+        "llm": true
+    },
+    "rss": {
+        "CustomRSS": {
+            "enabled": true,
+            "filename": "CustomRSS.opml"
+        },
+        "awesome-cybersecurity-rss-hub": {
+            "enabled": true,
+            "filename": "awesome-cybersecurity-rss.opml",
+            "url": "https://raw.githubusercontent.com/sechelper/awesome-cybersecurity-rss-hub/main/feeds-en-us.opml"
+        },
+        "CyberSecurityRSS": {
+            "enabled": false,
+            "url": "https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/CyberSecurityRSS.opml",
+            "filename": "CyberSecurityRSS.opml"
+        },
+        "CyberSecurityRSS-tiny": {
+            "enabled": false,
+            "url": "https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/tiny.opml",
+            "filename": "CyberSecurityRSS-tiny.opml"
+        },
+        "Chinese-Security-RSS": {
+            "enabled": false,
+            "url": "https://raw.githubusercontent.com/zhengjim/Chinese-Security-RSS/master/Chinese-Security-RSS.opml",
+            "filename": "Chinese-Security-RSS.opml"
+        },
+        "awesome-security-feed": {
+            "enabled": false,
+            "url": "https://raw.githubusercontent.com/mrtouch93/awesome-security-feed/main/security_feeds.opml",
+            "filename": "awesome-security-feed.opml"
+        },
+        "wechatRSS": {
+            "enabled": true,
+            "url": "https://raw.githubusercontent.com/ttttmr/Wechat2RSS/master/static/opml/sec.opml",
+            "filename": "wechatRSS.opml"
+        },
+        "chinese-independent-blogs": {
+            "enabled": false,
+            "url": "https://raw.githubusercontent.com/timqian/chinese-independent-blogs/master/feed.opml",
+            "filename": "chinese-independent-blogs.opml"
+        }
+    },
+    "llm": {
+        "enabled": true,
+        "secrets": "OPENAI_API_KEY",
+        "key": "sk-xxxx",
+        "base_url": "https://api.siliconflow.cn/v1/",
+        "model": "LoRA/Qwen/Qwen2.5-32B-Instruct"
+    },
+    "bot": {
+        "feishu": {
+            "enabled": false,
+            "secrets": "FEISHU_KEY",
+            "key": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        },
+        "wecom": {
+            "enabled": false,
+            "secrets": "WECOM_KEY",
+            "key": "fa48dfdf-b73e-4881-9e9e-2f590c395238"
+        },
+        "dingtalk": {
+            "enabled": false,
+            "secrets": "DINGTALK_KEY",
+            "key": "f575bfb78fedeb3652773dae0619e9a477d729a062cfb914d112c0da08f35d1a"
+        },
+        "qq": {
+            "enabled": false,
+            "secrets": "QQ_KEY",
+            "qq_id": "2419110059",
+            "group_id": [
+                "808542982",
+                "217863340"
+            ],
+            "key": "xxxxxxxxxx"
+        },
+        "telegram": {
+            "enabled": false,
+            "secrets": "TELEGRAM_KEY",
+            "chat_id": [
+                "-799557100"
+            ],
+            "key": "xxxxxxxxxx"
+        },
+        "mail": {
+            "enabled": false,
+            "secrets": "MAIL_KEY",
+            "secrets_receiver": "MAIL_RECEIVER",
+            "address": "firmianay@163.com",
+            "server": "smtp.163.com",
+            "from": "security-bot <firmianay@163.com>",
+            "receiver": "a@163.com,b@163.com",
+            "key": "xxxxxxxxxx"
+        }
+    },
+    "bark": {
+        "enabled": true,
+        "device_key": "bark_key_here"
+    },
+    "keywords": {
+        "exclude": [
+            "招聘",
+            "招生",
+            "开班",
+            "报名",
+            "双非",
+            "倒计时",
+            "圆满",
+            "抽奖",
+            "好礼",
+            "福利",
+            "领取",
+            "火热",
+            "热烈",
+            "欢迎",
+            "美女",
+            "喜报",
+            "喜讯",
+            "惊喜",
+            "恭喜",
+            "签约",
+            "快乐",
+            "颜值",
+            "新冠",
+            "疫情",
+            "疫苗",
+            "核酸",
+            "月薪",
+            "年薪"
+        ],
+        "iot_keywords": [
+            "IoT",
+            "物联网",
+            "智能家居",
+            "网络设备",
+            "路由器",
+            "监控摄像头",
+            "智能门锁",
+            "智能灯泡",
+            "智能音箱",
+            "智能电视",
+            "智能冰箱",
+            "智能洗衣机",
+            "智能空调",
+            "智能插座",
+            "Zigbee",
+            "Z-Wave",
+            "BLE",
+            "蓝牙漏洞",
+            "WiFi漏洞",
+            "固件漏洞",
+            "智能设备",
+            "嵌入式设备",
+            "安全设备",
+            "防火墙",
+            "安全网关"
+        ]
+    }
+}

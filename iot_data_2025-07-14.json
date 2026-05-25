@@ -1,0 +1,20 @@
+{
+    "FreeBuf网络安全行业门户": {
+        "CVE-2025-7503（CVSS 10分）：热门IP摄像头存在隐蔽后门，攻击者可获取Root权限": {
+            "url": "https://www.freebuf.com/articles/network/439149.html",
+            "summary": "【文章URL链接】：https://www.freebuf.com/articles/network/439149.html\n【文章标题】：CVE-2025-7503（CVSS 10分）：热门IP摄像头存在隐蔽后门，攻击者可获取Root权限\n【文章摘要】：Shenzhen Liandian Communication Technology LTD生产的某款IP摄像头存在高危漏洞CVE-2025-7503，CVSS评分10分。攻击者可通过未公开的Telnet服务获取root权限，威胁隐私安全。漏洞影响文件系统修改、监控篡改等。建议用户隔离摄像头网络、禁用23端口等措施。"
+        }
+    },
+    "安全客-有思想的安全新媒体": {
+        "CVE-2025-7503高危漏洞（CVSS 10）：热门IP摄像头被曝隐藏后门，黑客可获取Root权限": {
+            "url": "https://www.anquanke.com/post/id/309981",
+            "summary": "【文章URL链接】：https://www.anquanke.com/post/id/309981\n【文章标题】：CVE-2025-7503高危漏洞（CVSS 10）：热门IP摄像头被曝隐藏后门，黑客可获取Root权限\n【文章摘要】：热门IP摄像头存在CVE-2025-7503高危漏洞，CVSS评分10.0，攻击者可通过固件中的Telnet后门获取Root权限，影响设备隐私和安全。厂商未发布补丁，建议用户采取隔离网络、封锁端口等措施。"
+        }
+    },
+    "Hackers Arise": {
+        "Can Hackers “See” Inside Your Home Using Wi-Fi to Track Your Location and Movement?": {
+            "url": "https://hackers-arise.com/can-hackers-see-inside-your-home-using-wi-fi-to-track-your-location-and-movement/",
+            "summary": "【文章URL链接】：https://hackers-arise.com/can-hackers-see-inside-your-home-using-wi-fi-to-track-your-location-and-movement/\n【文章标题】：Can Hackers “See” Inside Your Home Using Wi-Fi to Track Your Location and Movement?\n【文章摘要】：文章探讨了黑客如何利用Wi-Fi信号通过墙壁追踪家庭成员的位置和移动。通过分析Wi-Fi信号的反射、散射和衍射，结合人工智能和软件定义无线电技术，可以检测和重建人体的姿态和运动。"
+        }
+    }
+}

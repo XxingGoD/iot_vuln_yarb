@@ -1,0 +1,38 @@
+{
+    "GBHackers Security | #1 Globally Trusted Cyber Security News Platform": {
+        "Hunt Electronic DVR Vulnerability Leaves Admin Credentials Unprotected": {
+            "url": "https://gbhackers.com/hunt-electronic-dvr-vulnerability/",
+            "summary": "【文章URL链接】：https://gbhackers.com/hunt-electronic-dvr-vulnerability/\n【文章标题】：Hunt Electronic DVR Vulnerability Leaves Admin Credentials Unprotected\n【文章摘要】：Hunt Electronics’ hybrid DVR models HBF-09KD and HBF-16NK have a critical vulnerability (CVE-2025-6561) that exposes admin credentials in plaintext, allowing unauthenticated remote attackers to gain full control of the system and potentially compromise broader network security. Users are advised to update to the latest firmware and take additional security measures."
+        },
+        "Mitsubishi Electric AC Flaw Lets Hackers Remotely Control Systems": {
+            "url": "https://gbhackers.com/mitsubishi-electric-ac-flaw/",
+            "summary": "【文章URL链接】：https://gbhackers.com/mitsubishi-electric-ac-flaw/\n【文章标题】：Mitsubishi Electric AC Flaw Lets Hackers Remotely Control Systems\n【文章摘要】：Mitsubishi Electric AC系统存在一个严重漏洞（CVE-2025-3699），允许黑客绕过身份验证远程控制空调设备，影响多个型号。该漏洞可能导致系统设置被篡改、敏感信息泄露及固件篡改，建议用户采取措施限制网络访问并更新系统配置。"
+        }
+    },
+    "安全客-有思想的安全新媒体": {
+        "CISA警告MICROSENS NMP Web+中的关键漏洞：攻击者可能获得完全系统访问权限": {
+            "url": "https://www.anquanke.com/post/id/309091",
+            "summary": "【文章URL链接】：https://www.anquanke.com/post/id/309091\n【文章标题】：CISA警告MICROSENS NMP Web+中的关键漏洞：攻击者可能获得完全系统访问权限\n【文章摘要】：CISA警告MICROSENS NMP Web+存在多个高影响漏洞，包括硬编码JWT密钥、持久会话令牌和路径遍历漏洞，可能导致攻击者获得完全系统访问权限。建议用户升级到版本3.3.0。"
+        },
+        "SonicWall警告被木马入侵的NetExtender窃取VPN登录信息": {
+            "url": "https://www.anquanke.com/post/id/309026",
+            "summary": "【文章URL链接】：https://www.anquanke.com/post/id/309026\n【文章标题】：SonicWall警告被木马入侵的NetExtender窃取VPN登录信息\n【文章摘要】：SonicWall警告威胁行为者分发木马版本的NetExtender SSL VPN客户端，以窃取VPN凭据。恶意软件模仿合法版本，绕过数字签名检查，通过修改后的文件窃取VPN配置信息并发送到远程服务器。"
+        },
+        "Advantech紧急警报：严重缺陷（CVSS 9.6）使工业自动化面临远程接管": {
+            "url": "https://www.anquanke.com/post/id/308997",
+            "summary": "【文章URL链接】：https://www.anquanke.com/post/id/308997\n【文章标题】：Advantech紧急警报：严重缺陷（CVSS 9.6）使工业自动化面临远程接管\n【文章摘要】：Advantech的工业自动化产品存在多个高危漏洞，包括远程固件上传和Modbus控制等，可能导致远程接管和物理设备受损。已发布公共PoC代码，建议启用安全模式和更新固件。"
+        }
+    },
+    "The Hacker News": {
+        "CISA Adds 3 Flaws to KEV Catalog, Impacting AMI MegaRAC, D-Link, Fortinet": {
+            "url": "https://thehackernews.com/2025/06/cisa-adds-3-flaws-to-kev-catalog.html",
+            "summary": "【文章URL链接】：https://thehackernews.com/2025/06/cisa-adds-3-flaws-to-kev-catalog.html\n【文章标题】：CISA Adds 3 Flaws to KEV Catalog, Impacting AMI MegaRAC, D-Link, Fortinet\n【文章摘要】：CISA发布了新的关键漏洞目录（KEV），其中包括影响AMI MegaRAC、D-Link和Fortinet设备的三个漏洞。这些漏洞可能导致远程代码执行、未授权访问等安全风险。"
+        }
+    },
+    "FreeBuf网络安全行业门户": {
+        "思科ISE/ISE-PIC安全警报：两处高危RCE漏洞（CVSS 10.0）可致未授权获取root权限": {
+            "url": "https://www.freebuf.com/articles/system/436596.html",
+            "summary": "【文章URL链接】：https://www.freebuf.com/articles/system/436596.html\n【文章标题】：思科ISE/ISE-PIC安全警报：两处高危RCE漏洞（CVSS 10.0）可致未授权获取root权限\n【文章摘要】：思科ISE和ISE-PIC存在两处高危远程代码执行漏洞（CVSS 10.0），允许未授权攻击者获取root权限。漏洞影响特定版本的ISE和ISE-PIC，修复建议为升级到指定补丁版本。"
+        }
+    }
+}

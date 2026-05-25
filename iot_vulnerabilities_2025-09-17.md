@@ -1,0 +1,50 @@
+# IoT设备安全漏洞资讯（2025-09-17）
+
+## InfoSec Write-ups - Medium
+
+### [How I Hacked My ISP’s IPTV Set-Top Box?](https://infosecwriteups.com/how-i-hacked-my-isps-iptv-set-top-box-f1c6f49dab01?source=rss----7b722bfd1b8d---4)
+
+【文章URL链接】：https://infosecwriteups.com/how-i-hacked-my-isps-iptv-set-top-box-f1c6f49dab01?source=rss----7b722bfd1b8d---4
+【文章标题】：How I Hacked My ISP’s IPTV Set-Top Box?
+【文章摘要】：作者通过ADB工具绕过了ISP IPTV机顶盒的沙盒环境，提取并分析了机顶盒上的APK文件，成功拦截并分析了其网络流量，展示了如何进行硬件设备的安全分析和漏洞利用。
+
+---
+
+## Hackers Arise
+
+### [Network Espionage – Using Russian Cameras as Proxy, Part 3](https://hackers-arise.com/network-espionage-using-russian-cameras-as-proxy-part-3/)
+
+【文章URL链接】：https://hackers-arise.com/network-espionage-using-russian-cameras-as-proxy-part-3/
+【文章标题】：Network Espionage – Using Russian Cameras as Proxy, Part 3
+【文章摘要】：本文详细介绍了通过修改俄罗斯摄像头的固件来实现网络间谍活动的方法，包括如何获取、修改和重新打包固件以启用Telnet访问并设置自定义密码。
+
+---
+
+## FreeBuf网络安全行业门户
+
+### [AISURU僵尸网络：从破纪录DDoS攻击到住宅代理帝国的演变](https://www.freebuf.com/articles/network/448984.html)
+
+【文章URL链接】：https://www.freebuf.com/articles/network/448984.html
+【文章标题】：AISURU僵尸网络：从破纪录DDoS攻击到住宅代理帝国的演变
+【文章摘要】：AISURU僵尸网络通过利用消费级网络设备漏洞迅速扩张，控制了大量家庭路由器，从DDoS攻击转向提供住宅代理服务，展示了僵尸网络与代理服务融合的趋势。
+
+---
+
+### [LG WebOS智能电视漏洞可绕过认证实现完全控制](https://www.freebuf.com/articles/system/448941.html)
+
+【文章URL链接】：https://www.freebuf.com/articles/system/448941.html
+【文章标题】：LG WebOS智能电视漏洞可绕过认证实现完全控制
+【文章摘要】：研究人员发现LG WebOS智能电视存在漏洞，攻击者可绕过认证机制完全控制设备，影响多款机型。漏洞源于browser-service服务的路径遍历风险，攻击者可获取root权限、安装恶意应用并入侵系统。LG已发布安全公告建议用户更新固件。
+
+---
+
+## Talkback Tech
+
+### [Wanted to spy on my dog, ended up spying on TP-Link [exp] [net] [rev]](https://kennedn.com/blog/posts/tapo/)
+
+【文章URL链接】：https://kennedn.com/blog/posts/tapo/
+【文章标题】：Wanted to spy on my dog, ended up spying on TP-Link [exp] [net] [rev]
+【文章摘要】：作者购买了一款Tapo室内摄像头以监控家中的狗，但在设置过程中遇到了问题，进而对摄像头的固件进行了逆向工程和漏洞分析，包括中间人攻击、APK反编译和加密脚本编写，揭示了摄像头在设置和通信中的潜在安全漏洞。
+
+---
+

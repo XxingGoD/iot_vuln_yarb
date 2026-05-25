@@ -1,0 +1,22 @@
+# IoT设备安全漏洞资讯（2025-07-09）
+
+## The Hacker News
+
+### [RondoDox Botnet Exploits Flaws in TBK DVRs and Four-Faith Routers to Launch DDoS Attacks](https://thehackernews.com/2025/07/rondodox-botnet-exploits-flaws-in-tbk.html)
+
+【文章URL链接】：https://thehackernews.com/2025/07/rondodox-botnet-exploits-flaws-in-tbk.html
+【文章标题】：RondoDox Botnet Exploits Flaws in TBK DVRs and Four-Faith Routers to Launch DDoS Attacks
+【文章摘要】：RondoDox僵尸网络利用TBK DVR和Four-Faith路由器中的漏洞发起DDoS攻击，这些漏洞允许攻击者远程控制设备。
+
+---
+
+## Talkback Tech
+
+### [From cheap IoT toy to your smartphone: Getting RCE by leveraging a companion app [app] [exp]](https://www.synacktiv.com/en/publications/from-cheap-iot-toy-to-your-smartphone-getting-rce-by-leveraging-a-companion-app.html)
+
+【文章URL链接】：https://www.synacktiv.com/en/publications/from-cheap-iot-to-your-smartphone-getting-rce-by-leveraging-a-companion-app.html
+【文章标题】：From cheap IoT toy to your smartphone: Getting RCE by leveraging a companion app
+【文章摘要】：研究人员发现并利用了控制Eachine E58无人机的Android应用中的漏洞，通过伪造无人机的方式实现了对用户智能手机的远程代码执行（RCE）。研究涉及应用的Java代码和原生库，发现多个未修补的漏洞。
+
+---
+

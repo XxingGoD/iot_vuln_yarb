@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+<head><title>CustomRSS</title></head>
+<body>
+<outline title="talkback" text="talkback" htmlUrl="https://talkback.sh/tech/" xmlUrl="https://talkback.sh/tech/feed/" type="rss"/>
+<!-- <outline title="lastweekinfosec" text="lastweekinfosec" htmlUrl="https://blog.badsectorlabs.com/" xmlUrl="https://blog.badsectorlabs.com/feeds/all.atom.xml" type="rss"/> -->
+</body>
+</opml>

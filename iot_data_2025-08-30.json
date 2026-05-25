@@ -1,0 +1,28 @@
+{
+    "GBHackers Security | #1 Globally Trusted Cyber Security News Platform": {
+        "QNAP Flaw Allows Attackers to Bypass Authentication": {
+            "url": "https://gbhackers.com/qnap-flaw/",
+            "summary": "【文章URL链接】：https://gbhackers.com/qnap-flaw/\n【文章标题】：QNAP Flaw Allows Attackers to Bypass Authentication\n【文章摘要】：QNAP Systems released security patches for QVR firmware in legacy VioStor NVR systems, addressing two vulnerabilities: an improper authentication flaw (CVE-2025-52856) that allows unauthorized access, and a path traversal vulnerability (CVE-2025-52861) that can lead to unauthorized file access once admin access is gained. Both vulnerabilities are classified as \"Important\" severity."
+        },
+        "Critical Hikvision Vulnerabilities Allow Remote Command Injection": {
+            "url": "https://gbhackers.com/hikvision-vulnerabilities/",
+            "summary": "【文章URL链接】：https://gbhackers.com/hikvision-vulnerabilities/\n【文章标题】：Critical Hikvision Vulnerabilities Allow Remote Command Injection\n【文章摘要】：Hikvision Security Response Center (HSRC) 发布了关于HikCentral产品的三个关键漏洞，包括CSV注入、未引用服务路径和访问控制漏洞，允许远程命令注入、权限提升或获取管理员访问权限。建议用户升级到最新版本以修复这些漏洞。"
+        }
+    },
+    "安全客-有思想的安全新媒体": {
+        "CISA 警告：Citrix NetScaler 零日远程代码执行漏洞正遭广泛利用": {
+            "url": "https://www.anquanke.com/post/id/311702",
+            "summary": "【文章URL链接】：https://www.anquanke.com/post/id/311702\n【文章标题】：CISA 警告：Citrix NetScaler 零日远程代码执行漏洞正遭广泛利用\n【文章摘要】：CISA警告Citrix NetScaler系统存在零日漏洞CVE-2025-7775，该漏洞允许未经身份验证的远程代码执行，已被广泛利用。建议立即更新固件以防止系统被攻破。"
+        }
+    },
+    "FreeBuf网络安全行业门户": {
+        "【漏洞通告】NetScaler ADC和NetScaler Gateway内存溢出漏洞(CVE-2025-7775)": {
+            "url": "https://www.freebuf.com/articles/vuls/446477.html",
+            "summary": "【文章URL链接】：https://www.freebuf.com/articles/vuls/446477.html\n【文章标题】：【漏洞通告】NetScaler ADC和NetScaler Gateway内存溢出漏洞(CVE-2025-7775)\n【文章摘要】：Citrix NetScaler ADC和NetScaler Gateway存在内存溢出漏洞（CVE-2025-7775），攻击者可远程利用该漏洞获取设备权限或导致服务崩溃。受影响版本包括多个12.1、13.1和14.1系列版本。官方已发布修复建议。"
+        },
+        "海康威视HikCentral产品曝多漏洞，含高危管理员权限绕过漏洞（CVE-2025-39247）": {
+            "url": "https://www.freebuf.com/articles/es/446515.html",
+            "summary": "【文章URL链接】：https://www.freebuf.com/articles/es/446515.html\n【文章标题】：海康威视HikCentral产品曝多漏洞，含高危管理员权限绕过漏洞（CVE-2025-39247）\n【文章摘要】：海康威视HikCentral产品存在多个安全漏洞，包括CSV注入、权限提升及关键访问控制绕过等风险，其中CVE-2025-39247允许未认证用户获取管理员权限，攻击者可完全接管系统。"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+# IoT设备安全漏洞资讯（2025-09-08）
+
+## 安全客-有思想的安全新媒体
+
+### [CVE-2025-57052：cJSON存在严重JSON解析漏洞（CVSS 9.8），POC已公开](https://www.anquanke.com/post/id/311969)
+
+【文章URL链接】：https://www.anquanke.com/post/id/311969
+【文章标题】：CVE-2025-57052：cJSON存在严重JSON解析漏洞（CVSS 9.8），POC已公开
+【文章摘要】：cJSON库存在严重JSON解析漏洞（CVE-2025-57052），CVSS评分9.8，攻击者可利用该漏洞导致内存越界访问、段错误、权限提升或拒绝服务。该漏洞影响广泛使用cJSON的嵌入式/IoT设备、Web API和桌面/服务器应用。
+
+---
+

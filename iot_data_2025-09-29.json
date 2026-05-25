@@ -1,0 +1,34 @@
+{
+    "FreeBuf网络安全行业门户": {
+        "阿基拉勒索软件利用SonicWall SonicOS漏洞实施闪电战式入侵": {
+            "url": "https://www.freebuf.com/articles/es/450812.html",
+            "summary": "【文章URL链接】：https://www.freebuf.com/articles/es/450812.html\n【文章标题】：阿基拉勒索软件利用SonicWall SonicOS漏洞实施闪电战式入侵\n【文章摘要】：阿基拉勒索软件利用SonicWall SonicOS中的CVE-2024-40766漏洞，绕过多重认证，快速入侵SSL VPN账户，实施闪电战式攻击，受害者涵盖多个行业。SonicWall建议重置凭证、升级系统和加强安全措施。"
+        },
+        "FreeBuf早报 | 首个恶意MCP服务器现身；XCSSET新变种专攻苹果macOS用户": {
+            "url": "https://www.freebuf.com/news/450748.html",
+            "summary": "【文章URL链接】：https://www.freebuf.com/news/450748.html\n【文章标题】：FreeBuf早报 | 首个恶意MCP服务器现身；XCSSET新变种专攻苹果macOS用户\n【文章摘要】：文章报道了多个网络安全事件，包括首个恶意MCP服务器攻击、XCSSET新变种针对macOS用户的攻击、思科路由器和防火墙的高危漏洞以及新型僵尸网络利用IoT设备传播Mirai恶意载荷。"
+        }
+    },
+    "嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com": {
+        "聚焦可信AI安全！SDC2025 议题重磅揭晓": {
+            "url": "https://www.4hou.com/posts/gy39",
+            "summary": "【文章URL链接】：https://www.4hou.com/posts/gy39\n【文章标题】：聚焦可信AI安全！SDC2025 议题重磅揭晓\n【文章摘要】：文章介绍了第九届安全开发者峰会（SDC2025）的议程安排，包括AI智能体与未来安全的圆桌会谈和多个安全训练营，其中《IoT固件安全分析与漏洞挖掘实战培训》课程涵盖了IoT固件安全分析、漏洞挖掘与安全研究的实战内容。"
+        }
+    },
+    "安全客-有思想的安全新媒体": {
+        "Morte僵尸网络被披露：正利用路由器与企业应用漏洞，迅速扩张其“加载器即服务”活动": {
+            "url": "https://www.anquanke.com/post/id/312444",
+            "summary": "【文章URL链接】：https://www.anquanke.com/post/id/312444\n【文章标题】：Morte僵尸网络被披露：正利用路由器与企业应用漏洞，迅速扩张其“加载器即服务”活动\n【文章摘要】：Morte僵尸网络利用路由器和企业应用漏洞进行攻击，通过“加载器即服务”模式迅速扩张，主要针对SOHO路由器、IoT设备和企业应用，采用命令注入、默认凭证滥用等手段，部署加密货币挖矿载荷。"
+        },
+        "Akira勒索软件利用SonicWall VPN账户发起急速入侵": {
+            "url": "https://www.anquanke.com/post/id/312438",
+            "summary": "【文章URL链接】：https://www.anquanke.com/post/id/312438\n【文章标题】：Akira勒索软件利用SonicWall VPN账户发起急速入侵\n【文章摘要】：Akira勒索软件利用SonicWall SSL VPN账户发起攻击，通过CVE-2024-40766漏洞窃取凭证，即使启用MFA也能得手，攻击过程极短，不到4小时。SonicWall建议重置凭证、更新固件、启用MFA等措施。"
+        }
+    },
+    "代码卫士": {
+        "康耐视工业摄像头存在多个漏洞，无补丁": {
+            "url": "https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247524096&idx=1&sn=3be22e18653da9e761f0173796619548",
+            "summary": "【文章URL链接】：https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247524096&idx=1&sn=3be22e18653da9e761f0173796619548\n【文章标题】：康耐视工业摄像头存在多个漏洞，无补丁\n【文章摘要】：康耐视工业摄像头存在多个未修复的安全漏洞，这些漏洞可能导致攻击者远程访问摄像头，获取敏感信息或控制摄像头。"
+        }
+    }
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "SecWiki News": {
+            "SecWiki News 2026-05-24 Review": "http://www.sec-wiki.com/?2026-05-24"
+        }
+    },
+    {
+        "Help Net Security": {
+            "Week in review: GitHub breached via poisoned VS Code extension, critical NGINX flaw exploited": "https://www.helpnetsecurity.com/2026/05/24/week-in-review-github-breached-via-poisoned-vs-code-extension-critical-nginx-flaw-exploited/"
+        }
+    },
+    {
+        "Talkback Tech": {
+            "Negative-Days with Vulnerability Spoiler Alert: Three Months Later": "https://spaceraccoon.dev/negative-days-vulnerability-spoiler-alert/",
+            "GitHub - dinosn/CVE-2025-13673: CVE-2025-13673: Tutor LMS SQL Injection PoC + Docker lab [app] [exp]": "https://github.com/dinosn/CVE-2025-13673",
+            "Remote Browser Phishing in Phishing Club [social]": "https://phishing.club/blog/remote-browser-phishing/",
+            "GitHub - iss4cf0ng/OpenPetya: A Proof-of-Concept bootkit inspired by Petya ransomware, written in Assembly, C, and C++ [crypto] [mal]": "https://github.com/iss4cf0ng/OpenPetya",
+            "GitHub - yv1ing/Z3r0: A controlled multi-agent workbench for authorized security assessment, code auditing, internal review, and controlled research. [app] [rev]": "https://github.com/yv1ing/Z3r0",
+            "GitHub - shellkraft/Ledger: An aggressor script that tracks operational changes made during a red team engagement. Gives you a full audit trail of what was changed and what still needs to be cleaned up. [app]": "https://github.com/shellkraft/Ledger",
+            "GitHub - FortisFortuna-br/Argos-Recon: bugbounty recon osint python security pentesting async reconnaissance bug-bounty-tools [app] [net]": "https://github.com/FortisFortuna-br/Argos-Recon",
+            "This shouldn't have happened: A vulnerability postmortem [app] [crypto] [exp]": "https://projectzero.google/2021/12/this-shouldnt-have-happened.html",
+            "Linkers part 1 – Airs – Ian Lance Taylor [rev] [sys]": "https://www.airs.com/blog/archives/38",
+            "GitHub - superlinked/sie: Superlinked Inference Engine is an Open-source inference server and production cluster for embeddings, reranking, and extraction. [cloud]": "https://github.com/superlinked/sie",
+            "Getting root on Ubuntu through wishful thinking [app] [exp]": "https://github.blog/security/vulnerability-research/getting-root-on-ubuntu-through-wishful-thinking/",
+            "UK Cybercrime Journal: Inside the Cl0p attack on South Staffs Water [net] [social]": "https://blog.bushidotoken.net/2026/05/uk-cybercrime-journal-inside-cl0p.html"
+        }
+    },
+    {
+        "HackingPassion.com : root@HackingPassion.com-[~]": {
+            "How Botnets Hide in Plain Sight: Tor, I2P, and the C2 Networks You Can't See": "https://hackingpassion.com/botnets-tor-i2p-c2/"
+        }
+    },
+    {
+        "GBHackers Security | #1 Globally Trusted Cyber Security News Platform": {
+            "Top 10 Best Static Application Security Testing (SAST) Tools for Security Teams in 2026": "https://gbhackers.com/best-sast-tools/"
+        }
+    },
+    {
+        "威努特安全网络": {
+            "威努特超融合+WinClaw亮相鲲鹏昇腾开发者大会2026": "https://mp.weixin.qq.com/s?__biz=MzAwNTgyODU3NQ==&mid=2651141818&idx=1&sn=98c2dacda0c1d4641352e9f006668308"
+        }
+    },
+    {
+        "美团技术团队": {
+            "从高拟真到真可用，LongCat-Video-Avatar 1.5 正式开源": "https://tech.meituan.com/2026/05/25/longcat-video-avatar-1.5.html"
+        }
+    },
+    {
+        "黑鸟": {
+            "你删除的谷歌API密钥还在工作:最长可达23分钟": "https://mp.weixin.qq.com/s?__biz=MzAxOTM1MDQ1NA==&mid=2451186820&idx=1&sn=c13aeafe7e2c7dac4c7ecb196d6f2c49"
+        }
+    },
+    {
+        "安全研究GoSSIP": {
+            "G.O.S.S.I.P 2026年5月投稿指南 Love and Peach": "https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247501704&idx=1&sn=5b4447468e780a6baa2c226784e14c5f"
+        }
+    },
+    {
+        "安全圈": {
+            "【安全圈】“DeepSeek崩了”再次登微博热搜": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652076842&idx=1&sn=dab51b8b1b34d75999f4b8b8c85059ce",
+            "【安全圈】某高校系统服务器遭木马入侵，警方调查后予以行政处罚": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652076842&idx=2&sn=a98d5f104487d4f6ea77e07c49c25eff",
+            "【安全圈】富士康遭黑客入侵！致苹果30余份机密文件外泄": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652076842&idx=3&sn=e8b0c3a9ba5d24d03e786ead828083ef"
+        }
+    },
+    {
+        "Flanker论AI": {
+            "OpenCyvis 2.0：不用刷机也能用的开源 AI 手机": "https://mp.weixin.qq.com/s?__biz=MzI3ODI4NDM2MA==&mid=2247484189&idx=1&sn=aa15fce77547860b0674c4e7729846f9"
+        }
+    },
+    {
+        "极客公园": {
+            "活宝团队试验「让 AI 当老板」，结果「做什么赔什么」，底裤都不剩": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107089&idx=1&sn=2632430db662abd17668727eaf39c17c",
+            "传 Anthropic 新估值反超 OpenAI；iPhone 18 Pro 配色曝光，橙色没了；中国将实施太空人体研究计划 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107102&idx=1&sn=996e044d753ba2444b6c8c58f9fe8526"
+        }
+    },
+    {
+        "OffSec Blog": {
+            "x64dbg Operator Notes for Windows User-Mode Reversing": "https://www.offsecblog.com/2026/05/x64dbg-as-windows-user-mode-debugging.html"
+        }
+    },
+    {
+        "复旦白泽战队": {
+            "访谈资讯｜张谧教授就“AI智能体浪潮下的安全护栏治理”话题答南都记者问": "https://mp.weixin.qq.com/s?__biz=MzU4NzUxOTI0OQ==&mid=2247498592&idx=1&sn=d49ce409c6d145253360539bf3b8b05c"
+        }
+    }
+]

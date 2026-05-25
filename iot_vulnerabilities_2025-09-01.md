@@ -1,0 +1,32 @@
+# IoT设备安全漏洞资讯（2025-09-01）
+
+## Talkback Tech
+
+### [ZERO-DAY ALERT: Automated Discovery of Critical CWMP Stack Overflow in TP-Link Routers [exp] [net]](https://medium.com/@mehrrun/zero-day-alert-automated-discovery-of-critical-cwmp-stack-overflow-in-tp-link-routers-0bc495a08679)
+
+【文章URL链接】：https://medium.com/@mehrrun/zero-day-alert-automated-discovery-of-critical-cwmp-stack-overflow-in-tp-link-routers-0bc495a08679
+【文章标题】：ZERO-DAY ALERT: Automated Discovery of Critical CWMP Stack Overflow in TP-Link Routers [exp] [net]
+【文章摘要】：本文报道了通过自动化分析发现的TP-Link路由器中的一个零日漏洞，该漏洞存在于CWMP协议实现中的栈溢出问题，影响多个型号的路由器。研究者使用自动化污点分析工具发现了这一漏洞，并提供了详细的发现和分析过程。
+
+---
+
+## GBHackers Security | #1 Globally Trusted Cyber Security News Platform
+
+### [MediaTek Issues Security Update to Patch Multiple Chipset Flaws](https://gbhackers.com/mediatek-issues-security-update/)
+
+【文章URL链接】：https://gbhackers.com/mediatek-issues-security-update/
+【文章标题】：MediaTek Issues Security Update to Patch Multiple Chipset Flaws
+【文章摘要】：MediaTek发布安全更新，修复了其调制解调器和系统组件中的多个高危和中危漏洞，包括远程权限提升和拒绝服务攻击。这些漏洞影响了多种芯片组型号和固件版本，已向OEM合作伙伴提供补丁。
+
+---
+
+## FreeBuf网络安全行业门户
+
+### [联发科芯片组高危漏洞可致权限提升或DoS攻击，涵盖手机、平板及物联网设备](https://www.freebuf.com/news/446761.html)
+
+【文章URL链接】：https://www.freebuf.com/news/446761.html
+【文章标题】：联发科芯片组高危漏洞可致权限提升或DoS攻击，涵盖手机、平板及物联网设备
+【文章摘要】：联发科芯片组存在多个高危和中危漏洞，包括调制解调器越界写入、越界读取等，可能导致远程权限提升或拒绝服务攻击，影响手机、平板及物联网设备。建议用户安装设备制造商提供的最新固件或操作系统更新。
+
+---
+

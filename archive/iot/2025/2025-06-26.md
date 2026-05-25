@@ -1,0 +1,56 @@
+# IoT设备安全漏洞资讯（2025-06-26）
+
+## FreeBuf网络安全行业门户
+
+### [Realtek蓝牙安全连接配对漏洞可导致攻击者发起拒绝服务攻击](https://www.freebuf.com/articles/network/436518.html)
+
+【文章URL链接】：https://www.freebuf.com/articles/network/436518.html
+【文章标题】：Realtek蓝牙安全连接配对漏洞可导致攻击者发起拒绝服务攻击
+【文章摘要】：研究人员发现Realtek RTL8762E SDK v1.4.0中的蓝牙低功耗（BLE）安全连接配对漏洞，攻击者可利用该漏洞通过精心构造的数据包发起拒绝服务攻击，导致配对失败和连接中断。修复建议包括在SMP层实施全面的状态验证。
+
+---
+
+### [FreeBuf早报 | WinRAR目录遍历漏洞允许通过恶意文件执行任意代码；中东网络战全景速览](https://www.freebuf.com/news/436353.html)
+
+【文章URL链接】：https://www.freebuf.com/news/436353.html
+【文章标题】：FreeBuf早报 | WinRAR目录遍历漏洞允许通过恶意文件执行任意代码；中东网络战全景速览
+【文章摘要】：文章报道了多个安全漏洞，包括WinRAR目录遍历漏洞、ELECOM路由器高危漏洞、NVIDIA Megatron-LM代码执行漏洞、Kaleris Navis N4漏洞等，涉及路由器、AI平台、供应链基础设施等设备和系统的安全问题。
+
+---
+
+## GBHackers Security | #1 Globally Trusted Cyber Security News Platform
+
+### [CISA Issues Alert on Active Exploitation of D-Link Path Traversal Flaw](https://gbhackers.com/cisa-issues-alert-on-d-link-path-traversal-flaw/)
+
+【文章URL链接】：https://gbhackers.com/cisa-issues-alert-on-d-link-path-traversal-flaw/
+【文章标题】：CISA Issues Alert on Active Exploitation of D-Link Path Traversal Flaw
+【文章摘要】：CISA警告D-Link DIR-859路由器存在CVE-2024-0769路径遍历漏洞，允许未授权访问和完全控制设备。该漏洞存在于所有硬件和固件版本中，可通过HTTP POST请求利用。D-Link已停止对该型号的支持，建议立即更换设备。
+
+---
+
+## 安全客-有思想的安全新媒体
+
+### [SonicWall警告被木马入侵的NetExtender窃取VPN登录信息](https://www.anquanke.com/post/id/309026)
+
+【文章URL链接】：https://www.anquanke.com/post/id/309026
+【文章标题】：SonicWall警告被木马入侵的NetExtender窃取VPN登录信息
+【文章摘要】：SonicWall警告威胁行为者分发木马版本的NetExtender SSL VPN客户端，以窃取VPN凭据。恶意软件模仿合法版本，绕过数字签名检查，通过修改后的文件窃取VPN配置信息并发送到远程服务器。
+
+---
+
+### [Advantech紧急警报：严重缺陷（CVSS 9.6）使工业自动化面临远程接管](https://www.anquanke.com/post/id/308997)
+
+【文章URL链接】：https://www.anquanke.com/post/id/308997
+【文章标题】：Advantech紧急警报：严重缺陷（CVSS 9.6）使工业自动化面临远程接管
+【文章摘要】：Advantech的工业自动化产品存在多个高危漏洞，包括远程固件上传和Modbus控制等，可能导致远程接管和物理设备受损。建议启用安全模式并更新固件以缓解风险。
+
+---
+
+### [威胁者据称出售针对 FortiOS 的 FortiGate API 漏洞工具](https://www.anquanke.com/post/id/308930)
+
+【文章URL链接】：https://www.anquanke.com/post/id/308930
+【文章标题】：威胁者据称出售针对 FortiOS 的 FortiGate API 漏洞工具
+【文章摘要】：威胁者在暗网出售针对 FortiOS 的 FortiGate API 漏洞利用工具，售价12,000美元，可利用170多个不安全的API端点，提取防火墙策略、VPN日志等敏感信息，无需用户名和密码。
+
+---
+

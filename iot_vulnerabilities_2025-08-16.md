@@ -1,0 +1,12 @@
+# IoT设备安全漏洞资讯（2025-08-16）
+
+## GBHackers Security | #1 Globally Trusted Cyber Security News Platform
+
+### [Cisco IOS, IOS XE, and Secure Firewall Flaws Allow Remote DoS Attacks](https://gbhackers.com/cisco-ios-ios-xe-and-secure-firewall-flaws/)
+
+【文章URL链接】：https://gbhackers.com/cisco-ios-ios-xe-and-secure-firewall-flaws/
+【文章标题】：Cisco IOS, IOS XE, and Secure Firewall Flaws Allow Remote DoS Attacks
+【文章摘要】：Cisco发布了高优先级安全公告，指出其多个产品中的IKEv2功能存在六个漏洞，允许未认证远程攻击者发起拒绝服务攻击，可能导致系统崩溃和服务中断。这些漏洞影响Cisco IOS、IOS XE、ASA和FTD软件，但不包括IOS XR、Meraki、NX-OS和FMC软件。Cisco已提供软件更新以修复这些漏洞。
+
+---
+

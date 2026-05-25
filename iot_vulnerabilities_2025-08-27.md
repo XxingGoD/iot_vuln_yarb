@@ -1,0 +1,40 @@
+# IoT设备安全漏洞资讯（2025-08-27）
+
+## FreeBuf网络安全行业门户
+
+### [FreeBuf早报 | 单比特翻转攻击可向AI模型植入隐蔽后门；X/Twitter成用户位置数据"跟踪狂"](https://www.freebuf.com/news/445902.html)
+
+【文章URL链接】：https://www.freebuf.com/news/445902.html
+【文章标题】：FreeBuf早报 | 单比特翻转攻击可向AI模型植入隐蔽后门；X/Twitter成用户位置数据"跟踪狂"
+【文章摘要】：文章报道了多种网络安全事件，包括单比特翻转攻击向AI模型植入隐蔽后门，社交媒体X/Twitter对用户位置数据的追踪，以及多个软件和路由器的漏洞。特别提到了新型恶意软件"Gayfemboy"利用TP-Link、思科等路由器漏洞获取远程控制权。
+
+---
+
+## GBHackers Security | #1 Globally Trusted Cyber Security News Platform
+
+### [IPFire Firewall Admin Panel Vulnerability Enables Persistent JavaScript Injection](https://gbhackers.com/ipfire-firewall-admin-panel-vulnerability/)
+
+【文章URL链接】：https://gbhackers.com/ipfire-firewall-admin-panel-vulnerability/
+【文章标题】：IPFire Firewall Admin Panel Vulnerability Enables Persistent JavaScript Injection
+【文章摘要】：IPFire 2.29的防火墙管理界面存在一个存储型XSS漏洞，允许认证管理员注入持久化的JavaScript代码，导致会话劫持、未授权操作或内部网络攻击。该漏洞影响多个输入字段，攻击者只需管理员权限即可利用。建议更新IPFire版本、限制管理员访问和实施内容安全策略以缓解风险。
+
+---
+
+## Talkback Tech
+
+### [The One Where We Just Steal The Vulnerabilities (CrushFTP CVE-2025-54309) [exp] [net]](https://labs.watchtowr.com/the-one-where-we-just-steal-the-vulnerabilities-crushftp-cve-2025-54309/)
+
+【文章URL链接】：https://labs.watchtowr.com/the-one-where-we-just-steal-the-vulnerabilities-crushftp-cve-2025-54309/
+【文章标题】：The One Where We Just Steal The Vulnerabilities (CrushFTP CVE-2025-54309) [exp] [net]
+【文章摘要】：文章分析了CrushFTP中的CVE-2025-54309漏洞，该漏洞允许攻击者通过HTTPS获取管理员访问权限，影响CrushFTP 10版本前10.8.5和11版本前11.3.4_23。攻击者利用此漏洞可访问敏感文件并进行其他恶意操作。
+
+---
+
+### [GitHub - fox-it/citrix-netscaler-triage: Dissect triage script for Citrix NetScaler devices [for]](https://github.com/fox-it/citrix-netscaler-triage)
+
+【文章URL链接】：https://github.com/fox-it/citrix-netscaler-triage
+【文章标题】：GitHub - fox-it/citrix-netscaler-triage: Dissect triage script for Citrix NetScaler devices
+【文章摘要】：该仓库包含用于分析Citrix NetScaler设备的脚本，包括用于检测设备版本的scan-citrix-netscaler-version.py和用于分析设备镜像/目标的iocitrix.py。这些脚本有助于识别和分析潜在的安全问题。
+
+---
+

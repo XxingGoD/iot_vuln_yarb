@@ -1,0 +1,80 @@
+# IoT设备安全漏洞资讯（2025-07-25）
+
+## Help Net Security
+
+### [Sonicwall fixes critical flaw in SMA appliances, urges customers to check for compromise (CVE-2025-40599)](https://www.helpnetsecurity.com/2025/07/24/sonicwall-fixes-critical-flaw-sma-appliances-urges-customers-to-check-for-compromise-cve-2025-40599/)
+
+【文章URL链接】：https://www.helpnetsecurity.com/2025/07/24/sonicwall-fixes-critical-flaw-sma-appliances-urges-customers-to-check-for-compromise-cve-2025-40599/
+【文章标题】：Sonicwall fixes critical flaw in SMA appliances, urges customers to check for compromise (CVE-2025-40599)
+【文章摘要】：Sonicwall发现并修复了SMA 100系列设备中的一个严重漏洞（CVE-2025-40599），该漏洞可能允许具有管理员权限的远程攻击者上传任意文件，导致远程代码执行。受影响的设备包括SMA 210、410和500v，建议用户升级固件并检查设备是否被利用。
+
+---
+
+## InfoSec Write-ups - Medium
+
+### [Routing-Based SSRF  —  Host Header Injection Leads to Internal Access](https://infosecwriteups.com/routing-based-ssrf-host-header-injection-leads-to-internal-access-b65a1c8b1b42?source=rss----7b722bfd1b8d---4)
+
+【文章URL链接】：https://infosecwriteups.com/routing-based-ssrf-host-header-injection-leads-to-internal-access-b65a1c8b1b42?source=rss----7b722bfd1b8d---4
+【文章标题】：Routing-Based SSRF — Host Header Injection Leads to Internal Access
+【文章摘要】：文章描述了一种通过篡改Host头进行路由型SSRF攻击的方法，攻击者可以利用该漏洞绕过内部路由控制，访问私有管理面板和关键内部服务。
+
+---
+
+## FreeBuf网络安全行业门户
+
+### [FreeBuf早报 | 三星服务器曝18个高危漏洞；施耐德电力运营系统曝远程代码执行漏洞](https://www.freebuf.com/news/441240.html)
+
+【文章URL链接】：https://www.freebuf.com/news/441240.html
+【文章标题】：FreeBuf早报 | 三星服务器曝18个高危漏洞；施耐德电力运营系统曝远程代码执行漏洞
+【文章摘要】：文章报道了多个高危漏洞，包括三星服务器的18个高危漏洞，施耐德电力运营系统的远程代码执行漏洞，大华IP摄像头的缓冲区溢出漏洞，以及TP-Link NVR的命令注入漏洞。这些漏洞可能导致系统沦陷、远程代码执行等严重后果。
+
+---
+
+## 安全客-有思想的安全新媒体
+
+### [魏德米勒（Weidmueller）工业路由器曝出严重漏洞，可致未授权远程代码执行](https://www.anquanke.com/post/id/310584)
+
+【文章URL链接】：https://www.anquanke.com/post/id/310584
+【文章标题】：魏德米勒（Weidmueller）工业路由器曝出严重漏洞，可致未授权远程代码执行
+【文章摘要】：魏德米勒工业路由器IE-SR-2TX系列存在多个高危漏洞，包括未授权远程代码执行、缓冲区溢出和Web接口注入等，攻击者可获取root权限，影响工业网络运行。
+
+---
+
+## GBHackers Security | #1 Globally Trusted Cyber Security News Platform
+
+### [Tridium Niagara Framework Flaws Expose Sensitive Network Data](https://gbhackers.com/tridium-niagara-framework-flaws/)
+
+【文章URL链接】：https://gbhackers.com/tridium-niagara-framework-flaws/
+【文章标题】：Tridium Niagara Framework Flaws Expose Sensitive Network Data
+【文章摘要】：研究人员发现Tridium Niagara Framework存在13个关键漏洞，可能导致敏感网络数据泄露。这些漏洞允许攻击者在加密配置不当的情况下入侵系统，执行中间人攻击，影响建筑自动化系统等关键基础设施的安全。
+
+---
+
+### [New VoIP Botnet Targets Routers Using Default Passwords](https://gbhackers.com/new-voip-botnet-targets-routers/)
+
+【文章URL链接】：https://gbhackers.com/new-voip-botnet-targets-routers/
+【文章标题】：New VoIP Botnet Targets Routers Using Default Passwords
+【文章摘要】：研究人员发现一个利用VoIP路由器默认密码的新型VoIP僵尸网络，最初在新墨西哥州农村地区活动，后扩展至全球约500台设备。攻击者通过Telnet暴力破解和使用弱密码尝试，利用Mirai变种的攻击模式控制设备。建议组织检查Telnet暴露、更改默认凭证并监控异常流量以防止类似攻击。
+
+---
+
+## Talkback Tech
+
+### [A Spike in the Desert: How GreyNoise Uncovered a Global Pattern of VOIP-Based Telnet Attacks [net]](https://www.greynoise.io/blog/how-greynoise-uncovered-global-pattern-voip-based-telnet-attacks)
+
+【文章URL链接】：https://www.greynoise.io/blog/how-greynoise-uncovered-global-pattern-voip-based-telnet-attacks
+【文章标题】：A Spike in the Desert: How GreyNoise Uncovered a Global Pattern of VOIP-Based Telnet Attacks
+【文章摘要】：GreyNoise发现了一个异常的Telnet攻击模式，主要针对VOIP设备，集中在新墨西哥州的一个小区域。攻击者利用默认密码尝试和Mirai变种进行扫描，涉及约500个全球IP，这些设备多为Cambium Networks的路由器，存在固件漏洞。
+
+---
+
+## 嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com
+
+### [Darka5恶意家族样本分析](https://www.4hou.com/posts/jBmR)
+
+【文章URL链接】：https://www.4hou.com/posts/jBmR
+【文章标题】：Darka5恶意家族样本分析
+【文章摘要】：Darka5恶意家族样本通过IoT设备命令执行漏洞传播，采用ChaCha20加密算法和复杂的通信混淆手段，具有高度隐蔽性。文章详细分析了其攻击向量、下载器行为、数据加密、通信流量混淆及隐蔽手段，旨在帮助网络安全专家更好地理解和应对这一威胁。
+
+---
+

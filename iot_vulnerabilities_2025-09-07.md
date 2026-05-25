@@ -1,0 +1,12 @@
+# IoT设备安全漏洞资讯（2025-09-07）
+
+## InfoSec Write-ups - Medium
+
+### [The Hidden Path to an HP Printer: A Real-World Discovery](https://infosecwriteups.com/the-hidden-path-to-an-hp-printer-a-real-world-discovery-4b05187a8271?source=rss----7b722bfd1b8d---4)
+
+【文章URL链接】：https://infosecwriteups.com/the-hidden-path-to-an-hp-printer-a-real-world-discovery-4b05187a8271?source=rss----7b722bfd1b8d---4
+【文章标题】：The Hidden Path to an HP Printer: A Real-World Discovery
+【文章摘要】：作者通过目录暴力破解发现了一台HP打印机的未授权管理页面，可以修改网络设置、更改电话簿和禁用网络连接，最终获得了700美元的漏洞奖励。
+
+---
+

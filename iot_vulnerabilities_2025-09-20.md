@@ -1,0 +1,22 @@
+# IoT设备安全漏洞资讯（2025-09-20）
+
+## GBHackers Security | #1 Globally Trusted Cyber Security News Platform
+
+### [Nokia CBIS/NCS Manager API Vulnerability Allows Attackers to Bypass Authentication](https://gbhackers.com/nokia-cbis-ncs-manager/)
+
+【文章URL链接】：https://gbhackers.com/nokia-cbis-ncs-manager/
+【文章标题】：Nokia CBIS/NCS Manager API Vulnerability Allows Attackers to Bypass Authentication
+【文章摘要】：Nokia CBIS/NCS Manager API存在认证绕过漏洞（CVE-2023-49564），攻击者可通过伪造HTTP头绕过认证，访问管理员权限的API端点，导致基础设施被完全控制。Nokia已发布补丁修复此漏洞。
+
+---
+
+## InfoSec Write-ups - Medium
+
+### [UART Shell Privilege Escalation - KPMG CTF 2025 Writeup](https://infosecwriteups.com/uart-shell-privilege-escalation-kpmg-ctf-2025-writeup-8ce322de8d63?source=rss----7b722bfd1b8d---4)
+
+【文章URL链接】：https://infosecwriteups.com/uart-shell-privilege-escalation-kpmg-ctf-2025-writeup-8ce322de8d63?source=rss----7b722bfd1b8d---4
+【文章标题】：UART Shell Privilege Escalation - KPMG CTF 2025 Writeup
+【文章摘要】：文章描述了在KPMG CTF 2025中通过UART接口进行权限提升的挑战，通过启用开发者模式成功读取了受保护的flag文件。
+
+---
+

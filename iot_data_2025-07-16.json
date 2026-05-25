@@ -1,0 +1,24 @@
+{
+    "嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com": {
+        "国家网络安全通报中心：重点防范境外恶意网址和恶意IP": {
+            "url": "https://www.4hou.com/posts/KGNR",
+            "summary": "【文章URL链接】：https://www.4hou.com/posts/KGNR\n【文章标题】：国家网络安全通报中心：重点防范境外恶意网址和恶意IP\n【文章摘要】：文章指出国家网络安全通报中心发现一批境外恶意网址和恶意IP，这些地址与特定木马程序关联，主要威胁包括建立僵尸网络、后门利用等。特别提到Mirai僵尸网络利用IoT设备漏洞进行攻击，对网络设备如路由器、摄像头等构成威胁。"
+        }
+    },
+    "Exploit-DB.com RSS Feed": {
+        "[remote] MikroTik RouterOS 7.19.1 - Reflected XSS": {
+            "url": "https://www.exploit-db.com/exploits/52366",
+            "summary": "【文章URL链接】：https://www.exploit-db.com/exploits/52366\n【文章标题】：MikroTik RouterOS 7.19.1 - Reflected XSS\n【文章摘要】：MikroTik RouterOS 7.19.1及更早版本存在反射型跨站脚本漏洞（XSS），攻击者可通过构造特定URL诱使用户访问，触发漏洞，可能导致用户会话劫持或重定向攻击。"
+        },
+        "[hardware] TOTOLINK N300RB 8.54 - Command Execution": {
+            "url": "https://www.exploit-db.com/exploits/52363",
+            "summary": "【文章URL链接】：https://www.exploit-db.com/exploits/52363\n【文章标题】：TOTOLINK N300RB 8.54 - Command Execution\n【文章摘要】：TOTOLINK N300RB路由器固件版本8.54存在一个漏洞，攻击者可以通过一个受静态密钥保护的隐藏远程支持功能执行任意OS命令，获取root权限。"
+        }
+    },
+    "看雪学苑": {
+        "CVSS 10分！热门IP摄像头存在隐蔽后门，攻击者可获取Root权限": {
+            "url": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458597210&idx=2&sn=0d784a3ffb8c5e0bb4dc5bb8eaaf1d19",
+            "summary": "【文章URL链接】：https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458597210&idx=2&sn=0d784a3ffb8c5e0bb4dc5bb8eaaf1d19\n【文章标题】：CVSS 10分！热门IP摄像头存在隐蔽后门，攻击者可获取Root权限\n【文章摘要】：热门IP摄像头存在隐蔽后门，CVSS评分为10分，攻击者可以利用该后门获取设备的Root权限，从而完全控制摄像头。"
+        }
+    }
+}
