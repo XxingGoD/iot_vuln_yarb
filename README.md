@@ -19,6 +19,8 @@
 $ git clone https://github.com/VulnTotal-Team/yarb.git
 $ cd yarb && ./install.sh
 ```
+`install.sh` 会自动创建 `cqhttp/` 目录，再下载并解压 QQ 机器人程序；首次安装不需要手动创建该目录。
+
 
 ## 运行
 
