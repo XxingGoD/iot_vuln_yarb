@@ -28,7 +28,9 @@ jobs:
           FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
           WECOM_KEY: ${{ secrets.WECOM_KEY }}
           DINGTALK_KEY: ${{ secrets.DINGTALK_KEY }}
-          QQ_KEY: ${{ secrets.QQ_KEY }}
+          QQ_ACCESS_TOKEN: ${{ secrets.QQ_ACCESS_TOKEN }}
+          QQ_API_URL: ${{ secrets.QQ_API_URL }}
+          QQ_GROUP_IDS: ${{ secrets.QQ_GROUP_IDS }}
           TELEGRAM_KEY: ${{ secrets.TELEGRAM_KEY }}
           MAIL_KEY: ${{ secrets.MAIL_KEY }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}

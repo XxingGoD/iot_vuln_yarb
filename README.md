@@ -19,7 +19,7 @@
 $ git clone https://github.com/VulnTotal-Team/yarb.git
 $ cd yarb && ./install.sh
 ```
-`install.sh` 会自动创建 `cqhttp/` 目录，再下载并解压 QQ 机器人程序；首次安装不需要手动创建该目录。
+`install.sh` 仅安装 Python 依赖；QQ 推送使用独立部署、保持登录的 NTQQ / NapCat 服务，不在 GitHub runner 上安装或登录 QQ。
 
 
 ## 运行
@@ -64,8 +64,22 @@ $ nohup ./yarb.py --cron 11:00 > run.log 2>&1 &
 - [飞书群机器人](https://open.feishu.cn/document/ukTMukTMukTM/ucTM5YjL3ETO24yNxkjN)：`FEISHU_KEY`
 - [企业微信群机器人](https://developer.work.weixin.qq.com/document/path/91770)：`WECOM_KEY`
 - [钉钉群机器人](https://open.dingtalk.com/document/robots/custom-robot-access)：`DINGTALK_KEY`（机器人安全设置可以使用"自定义关键词"，设置为"Yarb"）
-- [QQ群机器人](https://github.com/Mrs4s/go-cqhttp)：`QQ_KEY`（需要关闭登录设备锁）
+- [NTQQ / NapCat QQ群机器人](https://doc.napneko.icu/)：`QQ_API_URL`、`QQ_ACCESS_TOKEN`、`QQ_GROUP_IDS`
 - [Telegram机器人](https://core.telegram.org/bots/api): `TELEGRAM_KEY`（需要代理）
+
+#### NTQQ / NapCat QQ群推送
+
+1. 在常驻电脑或服务器上按 [NapCat 安装文档](https://doc.napneko.icu/)部署并扫码登录 QQ；机器人账号需要已经加入目标群。
+2. 在 NapCat WebUI 的网络配置中创建并启用 **HTTP 服务端**，设置访问 token。这里使用的是 OneBot HTTP token，不是 QQ 密码，也不是 WebUI 登录 token。
+3. 给该 HTTP 服务配置可供 GitHub Actions 访问的 HTTPS 地址，使用有效 TLS 证书，并保留 `Authorization` 请求头和 OneBot API 路径。不要将未认证的 HTTP 服务或 WebUI 管理界面直接暴露到公网。
+4. 在仓库 Actions Secrets 中添加：
+   - `QQ_API_URL`：OneBot HTTP 服务基础地址，例如 `https://qq.example.com/onebot`；程序会追加 `/send_group_msg`。不要填写 WebUI 地址。
+   - `QQ_ACCESS_TOKEN`：第 2 步设置的 HTTP 服务 token。
+   - `QQ_GROUP_IDS`：目标群号，多个群用英文逗号分隔。
+5. 配置完成后把 `config.json` 的 `bot.qq.enabled` 设为 `true`。默认保持 `false`，以免向未知群发送消息；本地也可通过 `bot.qq.server`、`bot.qq.key`、`bot.qq.group_id` 配置，环境变量优先。
+6. 在安装了依赖的环境中运行 `python3 yarb.py --test` 测试推送。该命令会向所有启用的机器人发送 19 条测试消息；正常 Actions 运行则抓取并推送资讯。
+
+程序以 Bearer token 鉴权，通过 JSON 发送普通文本，检查 OneBot `status` 和 `retcode`；HTTP 或 OneBot 发送失败会使任务失败，而不会显示虚假的成功。QQ 登录和进程生命周期由常驻 NapCat 管理。
 
 ## IoT设备漏洞分析
 

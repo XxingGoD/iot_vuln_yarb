@@ -286,9 +286,10 @@ async def init_bot(conf: dict, proxy_url=''):
                 bot = globals()[f'{name}Bot'](v['address'], key, receiver, v['from'], v['server'])
                 bots.append(bot)
             elif name == 'qq':
-                bot = globals()[f'{name}Bot'](v['group_id'])
-                if await bot.start_server(v['qq_id'], key):
-                    bots.append(bot)
+                server = os.getenv(v['secrets_server']) or v['server']
+                groups = os.getenv(v['secrets_group_id'])
+                group_id = [group.strip() for group in groups.split(',') if group.strip()] if groups else v['group_id']
+                bots.append(qqBot(group_id, server, key, proxy_url))
             elif name == 'telegram':
                 bot = globals()[f'{name}Bot'](key, v['chat_id'], proxy_url)
                 if await bot.test_connect():
@@ -332,11 +333,6 @@ def init_rss(conf: dict, update: bool=False, proxy_url=''):
 
     console.print(f'[+] {len(feeds)} feeds', style='bold yellow')
     return feeds
-
-
-def cleanup():
-    """结束清理"""
-    qqBot.kill_server()
 
 
 async def job(args):
@@ -398,7 +394,6 @@ async def job(args):
         # print(bot)
         await bot.send(bot.parse_results(results))
 
-    cleanup()
 
 
 def argument():

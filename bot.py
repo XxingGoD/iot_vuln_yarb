@@ -1,13 +1,10 @@
-import time
 import json
-import yaml
 import telegram
 import requests
 import smtplib
-import subprocess
 from email.header import Header
 from email.mime.text import MIMEText
-from pathlib import Path
+from urllib.parse import urlsplit
 from datetime import datetime
 from pyrate_limiter import Duration, Rate, InMemoryBucket, Limiter
 
@@ -154,14 +151,22 @@ class dingtalkBot:
 
 
 class qqBot:
-    """QQ群机器人
-    https://github.com/Mrs4s/go-cqhttp
-    """
-    cqhttp_path = Path(__file__).absolute().parent.joinpath('cqhttp')
+    """通过常驻 NTQQ / NapCat 的 OneBot 11 HTTP 服务推送QQ群消息。"""
 
-    def __init__(self, group_id: list) -> None:
-        self.server = 'http://127.0.0.1:5700'
-        self.group_id = group_id
+    def __init__(self, group_id: list, server: str, key: str, proxy_url='') -> None:
+        parsed = urlsplit(server)
+        if not parsed.hostname or parsed.username or parsed.password or parsed.query or parsed.fragment:
+            raise ValueError('QQ_API_URL 必须是无凭据、查询参数和片段的 HTTP 服务地址')
+        if parsed.scheme != 'https' and not (parsed.scheme == 'http' and parsed.hostname in ('127.0.0.1', 'localhost', '::1')):
+            raise ValueError('远程 NapCat 服务必须使用 HTTPS；本机服务可使用 HTTP')
+        if not key:
+            raise ValueError('请配置 QQ_ACCESS_TOKEN（NapCat HTTP 服务 token，不是 QQ 密码）')
+        if not group_id:
+            raise ValueError('请配置 QQ_GROUP_IDS 或 bot.qq.group_id')
+        self.server = server.rstrip('/')
+        self.group_id = [int(group) for group in group_id]
+        self.headers = {'Authorization': f'Bearer {key}'}
+        self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
 
     @staticmethod
     def parse_results(results: list):
@@ -180,50 +185,24 @@ class qqBot:
         limiter = Limiter(bucket, max_delay=Duration.MINUTE.value)
 
         for text in text_list:
-            limiter.try_acquire('identity')
+            # OneBot 限流按每次实际群消息请求计数。
             print(f'{len(text)} {text[:50]}...{text[-50:]}')
 
-            for id in self.group_id:
-                try:
-                    r = requests.post(f'{self.server}/send_group_msg?group_id={id}&&message={text}')
-                    if r.status_code == 200:
-                        console.print(f'[+] qqBot 发送成功 {id}', style='bold green')
-                    else:
-                        console.print(f'[-] qqBot 发送失败 {id}', style='bold red')
-                except Exception as e:
-                    console.print(f'[-] qqBot 发送失败 {id}', style='bold red')
-                    print(e)
+            for group in self.group_id:
+                limiter.try_acquire('identity')
+                response = requests.post(
+                    f'{self.server}/send_group_msg',
+                    headers=self.headers,
+                    json={'group_id': group, 'message': text, 'auto_escape': True},
+                    proxies=self.proxy,
+                    timeout=30,
+                )
+                response.raise_for_status()
+                result = response.json()
+                if result.get('status') != 'ok' or result.get('retcode') != 0:
+                    raise RuntimeError(f'NapCat 群消息发送失败 {group}: retcode={result.get("retcode")}')
+                console.print(f'[+] qqBot 发送成功 {group}', style='bold green')
 
-    async def start_server(self, qq_id, qq_passwd, timeout=60):
-        config_path = self.cqhttp_path.joinpath('config.yml')
-        with open(config_path, 'r') as f:
-            data = yaml.load(f, Loader=yaml.FullLoader)
-            data['account']['uin'] = int(qq_id)
-            data['account']['password'] = qq_passwd
-        with open(config_path, 'w+') as f:
-            yaml.dump(data, f)
-
-        subprocess.run('cd cqhttp && ./go-cqhttp -d', shell=True)
-
-        timeout = time.time() + timeout
-        while True:
-            try:
-                requests.get(self.server)
-                console.print('[+] qqBot 启动成功', style='bold green')
-                return True
-            except Exception as e:
-                time.sleep(1)
-
-            if time.time() > timeout:
-                qqBot.kill_server()
-                console.print('[-] qqBot 启动失败', style='bold red')
-                return False
-
-    @classmethod
-    def kill_server(cls):
-        pid_path = cls.cqhttp_path.joinpath('go-cqhttp.pid')
-        subprocess.run(f'cat {pid_path} | xargs kill',
-                       stderr=subprocess.DEVNULL, shell=True)
 
 
 class mailBot:

@@ -63,13 +63,12 @@
         },
         "qq": {
             "enabled": false,
-            "secrets": "QQ_KEY",
-            "qq_id": "2419110059",
-            "group_id": [
-                "808542982",
-                "217863340"
-            ],
-            "key": "xxxxxxxxxx"
+            "secrets": "QQ_ACCESS_TOKEN",
+            "secrets_server": "QQ_API_URL",
+            "secrets_group_id": "QQ_GROUP_IDS",
+            "server": "",
+            "group_id": [],
+            "key": ""
         },
         "telegram": {
             "enabled": false,

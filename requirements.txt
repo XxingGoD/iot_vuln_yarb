@@ -3,10 +3,9 @@ requests
 feedparser
 pyfiglet
 schedule
-pyyaml
 python-telegram-bot
 PySocks
-pyrate-limiter
+pyrate-limiter>=3,<4
 poetry
 git+https://github.com/kurtmckee/listparser
 openai
