@@ -7,6 +7,8 @@ from email.mime.text import MIMEText
 from urllib.parse import urlsplit
 from datetime import datetime
 from pyrate_limiter import Duration, Rate, InMemoryBucket, Limiter
+import os
+from pathlib import Path
 
 from utils import *
 
@@ -153,7 +155,7 @@ class dingtalkBot:
 class qqBot:
     """通过常驻 NTQQ / NapCat 的 OneBot 11 HTTP 服务推送QQ群消息。"""
 
-    def __init__(self, group_id: list, server: str, key: str, proxy_url='') -> None:
+    def __init__(self, group_id: list, server: str, key: str, proxy_url='', share_url='') -> None:
         parsed = urlsplit(server)
         if not parsed.hostname or parsed.username or parsed.password or parsed.query or parsed.fragment:
             raise ValueError('QQ_API_URL 必须是无凭据、查询参数和片段的 HTTP 服务地址')
@@ -167,17 +169,37 @@ class qqBot:
         self.group_id = [int(group) for group in group_id]
         self.headers = {'Authorization': f'Bearer {key}'}
         self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
+        self.share_url = share_url or os.getenv('YARB_SHARE_URL', '')
 
-    @staticmethod
-    def parse_results(results: list):
-        text_list = []
-        for result in results:
-            (feed, value), = result.items()
-            text = f'[ {feed} ]\n\n'
-            for title, link in value.items():
-                text += f'{title}\n{link}\n\n'
-            text_list.append(text.strip())
-        return text_list
+    def parse_results(self, results: list):
+        feed_count = len(results)
+        article_count = sum(
+            len(value)
+            for result in results
+            for value in result.values()
+            if isinstance(value, dict)
+        )
+        share_url = self.share_url
+        if not share_url:
+            server_url = os.getenv('GITHUB_SERVER_URL', 'https://github.com').rstrip('/')
+            repository = os.getenv('GITHUB_REPOSITORY', '')
+            if repository:
+                share_url = f'{server_url}/{repository}/blob/main/today.md'
+        if not share_url:
+            share_url = '请配置 bot.qq.share_url 或 YARB_SHARE_URL'
+
+        message = (
+            f'每日安全资讯（{today}）\n'
+            f'收集 {feed_count} 个 RSS 源，共 {article_count} 篇文章。\n\n'
+            f'查看完整资讯：\n{share_url}'
+        )
+        iot_path = Path(__file__).absolute().parent.joinpath(
+            f'archive/iot/{today.split("-")[0]}/{today}.md'
+        )
+        if iot_path.exists():
+            iot_url = share_url.replace('/today.md', f'/archive/iot/{today.split("-")[0]}/{today}.md')
+            message += f'\n\nIoT 漏洞分析：\n{iot_url}'
+        return [message]
 
     async def send(self, text_list: list):
         rates = [Rate(20, Duration.MINUTE)] # 频率限制，20条/分钟

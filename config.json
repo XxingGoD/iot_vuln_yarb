@@ -76,7 +76,8 @@
             "secrets_group_id": "QQ_GROUP_IDS",
             "server": "",
             "group_id": [],
-            "key": ""
+            "key": "",
+            "share_url": "https://github.com/XxingGoD/iot_vuln_yarb/blob/main/today.md"
         },
         "telegram": {
             "enabled": false,

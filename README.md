@@ -77,9 +77,9 @@ $ nohup ./yarb.py --cron 11:00 > run.log 2>&1 &
    - `QQ_ACCESS_TOKEN`：第 2 步设置的 HTTP 服务 token。
    - `QQ_GROUP_IDS`：目标群号，多个群用英文逗号分隔。
 5. 配置完成后把 `config.json` 的 `bot.qq.enabled` 设为 `true`。当前 fork 已启用 QQ 推送，群号通过 `QQ_GROUP_IDS` Secret 指定；本地也可通过 `bot.qq.server`、`bot.qq.key`、`bot.qq.group_id` 配置，环境变量优先。
-6. 在安装了依赖的环境中运行 `python3 yarb.py --test` 测试推送。该命令会向所有启用的机器人发送 19 条测试消息；正常 Actions 运行则抓取并推送资讯。
+6. `bot.qq.share_url` 配置完整资讯入口，默认是仓库的 `today.md`。QQ 每次运行只发送一条日期、文章数量和完整资讯链接；若生成 IoT 分析文档，会同时附上 IoT 归档链接。`python3 yarb.py --test` 对 QQ 也只发送一条测试摘要。
 
-程序以 Bearer token 鉴权，通过 JSON 发送普通文本，检查 OneBot `status` 和 `retcode`；HTTP 或 OneBot 发送失败会使任务失败，而不会显示虚假的成功。QQ 登录和进程生命周期由常驻 NapCat 管理。
+程序以 Bearer token 鉴权，通过 JSON 发送摘要文本，检查 OneBot `status` 和 `retcode`；HTTP 或 OneBot 发送失败会使任务失败，而不会显示虚假的成功。
 
 当前 fork 使用 Tailscale 私有网络连接 `napcat-yarb.tail0a824d.ts.net`，通过 `tailscale serve` 代理本机 `127.0.0.1:3000`，不启用公网 Funnel，也不开放 WebUI。Actions 的 Tailscale 接入步骤需要 `TS_OAUTH_CLIENT_ID` 和 `TS_OAUTH_SECRET`，OAuth 客户端需要写入 `auth_keys` 的权限和 `tag:ci` 标签；tailnet 策略需允许 CI 节点访问 NapCat 的 TCP 443。常驻主机、Docker、NapCat 和 Tailscale 必须保持运行。
 

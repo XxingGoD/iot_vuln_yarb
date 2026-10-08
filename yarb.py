@@ -289,7 +289,7 @@ async def init_bot(conf: dict, proxy_url=''):
                 server = os.getenv(v['secrets_server']) or v['server']
                 groups = os.getenv(v['secrets_group_id'])
                 group_id = [group.strip() for group in groups.split(',') if group.strip()] if groups else v['group_id']
-                bots.append(qqBot(group_id, server, key, proxy_url))
+                bots.append(qqBot(group_id, server, key, proxy_url, v.get('share_url', '')))
             elif name == 'telegram':
                 bot = globals()[f'{name}Bot'](key, v['chat_id'], proxy_url)
                 if await bot.test_connect():
