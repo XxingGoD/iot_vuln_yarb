@@ -70,7 +70,7 @@
             "key": "f575bfb78fedeb3652773dae0619e9a477d729a062cfb914d112c0da08f35d1a"
         },
         "qq": {
-            "enabled": false,
+            "enabled": true,
             "secrets": "QQ_ACCESS_TOKEN",
             "secrets_server": "QQ_API_URL",
             "secrets_group_id": "QQ_GROUP_IDS",

@@ -22,6 +22,14 @@ jobs:
       - name: Install dependencies
         run: ./install.sh
 
+      - name: Connect to NapCat private network
+        uses: tailscale/github-action@v4
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+          ping: napcat-yarb.tail0a824d.ts.net
+
       - name: Push articles
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
