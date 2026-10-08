@@ -24,6 +24,7 @@ jobs:
 
       - name: Push articles
         env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
           WECOM_KEY: ${{ secrets.WECOM_KEY }}
           DINGTALK_KEY: ${{ secrets.DINGTALK_KEY }}

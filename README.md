@@ -50,6 +50,10 @@ $ nohup ./yarb.py --cron 11:00 > run.log 2>&1 &
 
 利用 Github Actions 提供的服务，你只需要 fork 本项目，在 Settings 中添加 secrets，即可完成部署。
 
+`build` 任务显式声明 `contents: write`，用于提交并推送每日资讯，无需为所有任务开放仓库写入权限。
+
+启用 IoT 的 LLM 分析时，在 Settings → Secrets and variables → Actions 中添加 `OPENAI_API_KEY`，并在 `config.json` 中配置对应服务的 `llm.base_url` 和 `llm.model`。工作流会将 Secret 传入程序；不要把真实 API 密钥提交到仓库。
+
 目前支持的推送机器人及对应的 secrets：
 
 - [邮件机器人](https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256)
