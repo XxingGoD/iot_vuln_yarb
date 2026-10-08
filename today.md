@@ -1,5 +1,7 @@
 # 每日安全资讯（2026-10-08）
 
+- Latest Hacking News | Cyber Security News, Hacking Tools and Penetration Testing Courses
+  - [7 Best Agentic AI Tools for Penetration Testing in 2026](https://latesthackingnews.com/2026/10/07/7-best-agentic-ai-tools-for-penetration-testing-in-2026/)
 - Help Net Security
   - [Authorities seize sites selling hacked, stolen intimate images of 17,000 women and girls](https://www.helpnetsecurity.com/2026/10/08/nudeleaksteens-seized-fbi-france/)
   - [YouTubers targeted with fake sponsorships and “channel verification” phishing](https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/)
@@ -11,8 +13,49 @@
   - [Pricing your bad days and how to build an economic model for security decisions](https://www.helpnetsecurity.com/2026/10/08/ivan-milenkovic-qualys-cyber-risk-quantification/)
   - [Who watches the AI watching your street?](https://www.helpnetsecurity.com/2026/10/08/ai-surveillance-cameras-privacy/)
   - [How AI can fix cybersecurity compliance: From dashboards to continuous execution](https://www.helpnetsecurity.com/2026/10/08/espresso-labs-ai-cybersecurity-compliance/)
+- HackingPassion.com : root@HackingPassion.com-[~]
+  - [Printer Tracking Dots Put Your Color Laser Printer's Serial Number on the Pages You Print](https://hackingpassion.com/printer-tracking-dots-serial-number/)
+  - [WordPress Backdoor Rebuilds Itself Seconds After You Delete It and Takes Its Orders From Ethereum](https://hackingpassion.com/wordpress-sc-backdoor-rebuilds-itself/)
+- Schneier on Security
+  - [How Technology Empowers—and Imperils—Dictators](https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html)
+  - [Apple’s Verified Photography System](https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html)
+- Synack
+  - [AWS Penetration Testing for Enterprises: What to Scope and How to Budget](https://www.synack.com/blog/aws-cloud-penetration-testing-scope-budget/)
 - WeLiveSecurity
   - [Inside a brand deal scam targeting YouTube creators](https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators/)
+- CIO
+  - [5 rules CIOs must rewrite for the frontier AI era](https://www.cio.com/article/4232556/5-rules-cios-must-rewrite-for-the-frontier-ai-era.html)
+  - [I audited an award-winning AI project. The case study left out the cloud bill](https://www.cio.com/article/4232005/i-audited-an-award-winning-ai-project-the-case-study-left-out-the-cloud-bill.html)
+  - [Why product management’s org placement shapes its success](https://www.cio.com/article/4232003/why-product-managements-org-placement-shapes-its-success.html)
+  - [Your employees are building AI agents. Do you know what they’re doing?](https://www.cio.com/article/4230240/your-employees-are-building-ai-agents-do-you-know-what-theyre-doing.html)
+  - [From petrodollar to AI currency: Who will control the money of the agentic economy?](https://www.cio.com/article/4232001/from-petrodollar-to-ai-currency-who-will-control-the-money-of-the-agentic-economy.html)
+  - [Best project management certifications of 2026](https://www.cio.com/article/230398/top-project-management-certifications.html)
+  - [Is your architecture preventing you from calculating AI value?](https://www.cio.com/article/4231999/is-your-architecture-preventing-you-from-calculating-ai-value.html)
+  - [AMD’s plan to boost production could ease AI supply chain concerns](https://www.cio.com/article/4231790/amds-plan-to-boost-production-could-ease-ai-supply-chain-concerns.html)
+  - [AI is making software cheap to build. Is your organization ready for what comes next?](https://www.cio.com/article/4231346/ai-is-making-software-cheap-to-build-is-your-organization-ready-for-what-comes-next.html)
+  - [SAP to acquire TechWolf to augment its SuccessFactors HCM platform](https://www.cio.com/article/4231753/sap-to-acquire-techwolf-to-augment-its-successfactors-hcm-platform.html)
+  - [Moving off legacy in a regulated business without breaking it](https://www.cio.com/article/4231327/moving-off-legacy-in-a-regulated-business-without-breaking-it.html)
+  - [AI governance’s real gap is accountability, not technology](https://www.cio.com/article/4223342/ai-governances-real-gap-is-accountability-not-technology.html)
+  - [AI is making software testing cheap. Quality judgment is becoming more valuable](https://www.cio.com/article/4231324/ai-is-making-software-testing-cheap-quality-judgment-is-becoming-more-valuable.html)
+  - [10 types of ambidextrous leadership required in the AI era](https://www.cio.com/article/4231297/10-types-of-ambidextrous-leadership-required-in-the-ai-era.html)
+- SecWiki News
+  - [SecWiki News 2026-10-07 Review](http://www.sec-wiki.com/?2026-10-07)
+- Technical Information Security Content & Discussion
+  - [I found yet another way to invoke JavaScript functions without parentheses](https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/)
+  - [CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE](https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/)
+- HackerNews
+  - [黑客在入侵 ccTLD 注册管理机构后劫持 Google 域名](http://0.0.0.0:8080/post/64755)
+  - [八个恶意 npm 包被下载 40,767 次，投递 Overlord RAT 和窃密软件](http://0.0.0.0:8080/post/64754)
+  - [未修补的 LMCache 严重漏洞可让未认证攻击者远程执行代码](http://0.0.0.0:8080/post/64753)
+  - [PoeLLM 恶意软件感染 3,400 多台服务器，以扩大加密货币挖矿僵尸网络](http://0.0.0.0:8080/post/64752)
+  - [勒索软件恢复公司 CEO 因秘密支付赎金被起诉](http://0.0.0.0:8080/post/64751)
+  - [FBI：FortiBleed 攻击仍在持续，将 FortiGate VPN 管理员锁在门外](http://0.0.0.0:8080/post/64750)
+- Cisco Blogs
+  - [A Spark That Ignited Cisco FIRE](https://feedpress.me/link/23532/17491164/a-spark-that-ignited-cisco-fire)
+- 威努特安全网络
+  - [USB综合管控方案：管好每一支U盘，守护全生命周期安全](https://mp.weixin.qq.com/s?__biz=MzAwNTgyODU3NQ==&mid=2651144475&idx=1&sn=fcec64301a40fda8e77f25df8c1e03e7)
+- Internet Security Blog – Hackology
+  - [I Built a Black Box for My Linux Server — Because My Load Hit 20 While the CPU Sat at 3%](https://blog.drhack.net/high-server-load-low-cpu-server-forensics-recorder/)
 - The Hacker News
   - [Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia](https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html)
   - [16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases](https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html)
@@ -30,34 +73,12 @@
   - [What Is Agentic Pentesting? What It Proves, and Where It Stops.](https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html)
   - [Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws](https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html)
   - [100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer](https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html)
-- darkreading
-  - [Writing the Next Chapter](https://www.darkreading.com/cybersecurity-operations/writing-next-chapter)
-  - [Australian Gov't Weighs Mandatory AI Incident Reporting](https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting)
-  - [Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives](https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives)
-  - [Anthropic Gives Vetted Defenders Fewer Claude Guardrails](https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails)
-  - [OpenAI Agent Escape Causes Wikimedia Service Outage](https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage)
+- 微步在线研究响应中心
+  - [尽快修复！Atlassian Jira 未认证任意文件读取漏洞](https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508973&idx=1&sn=89b2312af42bdfe2d6578af8af2271cc)
 - Paper - 知道创宇404实验室
   - [TWINGUARD-LITE：面向生成式患者数字孪生的基于规则的状态准入网关](https://paper.seebug.org/3524)
-- Latest Hacking News | Cyber Security News, Hacking Tools and Penetration Testing Courses
-  - [7 Best Agentic AI Tools for Penetration Testing in 2026](https://latesthackingnews.com/2026/10/07/7-best-agentic-ai-tools-for-penetration-testing-in-2026/)
-- Schneier on Security
-  - [How Technology Empowers—and Imperils—Dictators](https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html)
-  - [Apple’s Verified Photography System](https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html)
-- Hackers Arise
-  - [Bypass Web Application Firewall (WAF) with EvilWAF](https://hackers-arise.com/bypass-web-application-firewall-waf-with-evilwaf/)
-  - [IP Camera Hacking: Hacking IP Cameras with Cameradar](https://hackers-arise.com/ip-camera-hacking-hacking-ip-cameras-with-cameradar/)
-  - [Malware Analysis: Analyzing AI-Backed Malware with CAIRN](https://hackers-arise.com/malware-analysis-analyzing-ai-backed-malware-with-cairn/)
-- Microsoft Security Blog
-  - [3 lessons from frontier AI vulnerability research](https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/)
 - KnowBe4 Blog
   - [Warning: Attackers Are Tricking Employees Into Sharing Malicious Calendar Invites](https://blog.knowbe4.com/warning-attackers-are-tricking-employees-into-sharing-malicious-calendar-invites)
-- HackingPassion.com : root@HackingPassion.com-[~]
-  - [Printer Tracking Dots Put Your Color Laser Printer's Serial Number on the Pages You Print](https://hackingpassion.com/printer-tracking-dots-serial-number/)
-  - [WordPress Backdoor Rebuilds Itself Seconds After You Delete It and Takes Its Orders From Ethereum](https://hackingpassion.com/wordpress-sc-backdoor-rebuilds-itself/)
-- SecWiki News
-  - [SecWiki News 2026-10-07 Review](http://www.sec-wiki.com/?2026-10-07)
-- Internet Security Blog – Hackology
-  - [I Built a Black Box for My Linux Server — Because My Load Hit 20 While the CPU Sat at 3%](https://blog.drhack.net/high-server-load-low-cpu-server-forensics-recorder/)
 - OffSec Blog
   - [bromite for hardened, ad-free Chromium browsing on Android](https://www.offsecblog.com/2026/10/bromite-for-hardened-ad-free-chromium.html)
   - [Inside gost: how GO Simple Tunnel turns Go into a multi-protocol relay platform](https://www.offsecblog.com/2026/10/inside-gost-how-go-simple-tunnel-turns.html)
@@ -84,84 +105,6 @@
   - [Nettacker for automated recon and vulnerability scanning](https://www.offsecblog.com/2026/10/nettacker-for-automated-recon-and.html)
   - [clusterfuzz for continuous fuzzing at production scale](https://www.offsecblog.com/2026/10/clusterfuzz-for-continuous-fuzzing-at.html)
   - [bughunters as a reference corpus for Googles vulnerability reward programs](https://www.offsecblog.com/2026/10/bughunters-as-reference-corpus-for.html)
-- HackerNews
-  - [黑客在入侵 ccTLD 注册管理机构后劫持 Google 域名](http://0.0.0.0:8080/post/64755)
-  - [八个恶意 npm 包被下载 40,767 次，投递 Overlord RAT 和窃密软件](http://0.0.0.0:8080/post/64754)
-  - [未修补的 LMCache 严重漏洞可让未认证攻击者远程执行代码](http://0.0.0.0:8080/post/64753)
-  - [PoeLLM 恶意软件感染 3,400 多台服务器，以扩大加密货币挖矿僵尸网络](http://0.0.0.0:8080/post/64752)
-  - [勒索软件恢复公司 CEO 因秘密支付赎金被起诉](http://0.0.0.0:8080/post/64751)
-  - [FBI：FortiBleed 攻击仍在持续，将 FortiGate VPN 管理员锁在门外](http://0.0.0.0:8080/post/64750)
-- 微步在线研究响应中心
-  - [尽快修复！Atlassian Jira 未认证任意文件读取漏洞](https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508973&idx=1&sn=89b2312af42bdfe2d6578af8af2271cc)
-- 威努特安全网络
-  - [USB综合管控方案：管好每一支U盘，守护全生命周期安全](https://mp.weixin.qq.com/s?__biz=MzAwNTgyODU3NQ==&mid=2651144475&idx=1&sn=fcec64301a40fda8e77f25df8c1e03e7)
-- Cisco Blogs
-  - [A Spark That Ignited Cisco FIRE](https://feedpress.me/link/23532/17491164/a-spark-that-ignited-cisco-fire)
-- Professional Hackers
-  - [Use Gemini for free? You’ll soon be limited to its weakest AI model](https://professionalhackers.in/use-gemini-for-free-youll-soon-be-limited-to-its-weakest-ai-model/)
-- 看雪学苑
-  - [Win11 26H1内核异常体系分析与实验](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622529&idx=1&sn=2083068144c170ff5bcd5ff0dfdfa36e)
-  - [CVSS 9.8！思科核心交换机NGOAM漏洞，远程无登录即可拿下最高权限](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622529&idx=2&sn=24a705329f5a1419abeaf7512db4cf55)
-  - [【彩蛋大放送】冰与火的战歌：Windows内核攻防实战](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622529&idx=3&sn=fda47df3683a16a3fa8fe485abb5e7d7)
-  - [SDC2026议题预告 | 从漏洞检测到利用：知识驱动的 RISC-V 硬件安全分析技术](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622478&idx=1&sn=7a92ebdda86657e461928698f749424a)
-  - [当漏洞挖掘遇上 AI Agent：主流企业防火墙 0day 挖掘实战](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622478&idx=2&sn=2493f1ae2222a727e9420c80bc719906)
-- Synack
-  - [AWS Penetration Testing for Enterprises: What to Scope and How to Budget](https://www.synack.com/blog/aws-cloud-penetration-testing-scope-budget/)
-- 安全分析与研究
-  - [AI完整CyberKillChain可行性评估](https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247497260&idx=1&sn=64e49cc6f7f9a371f5f98ae21168679a)
-- 黑鸟
-  - [一环扣一环的求职骗局，从简历投递到内网隧道完整入侵](https://mp.weixin.qq.com/s?__biz=MzAxOTM1MDQ1NA==&mid=2451189173&idx=1&sn=920a0ccc154ccdb3445c3e3c1a3d8648)
-- 安全内参
-  - [某国全国公民身份数据全部泄露：因人口系统遭异常访问](https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247516679&idx=1&sn=8ceb63d7aad965a082eea0294affd2e7)
-  - [通信即战场：美国智库推演通过打击通信网络实施的对台“网络经济战”](https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247516679&idx=2&sn=5a215e666cb239b8dab1dfab3c5dffe8)
-- 奇安信威胁情报中心
-  - [偷完受害者再偷"老板"：一个勒索软件加盟者利用MCP黑吃黑的双面生意](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247520767&idx=1&sn=d30679668e26fb120a045590129ad72d)
-- 代码卫士
-  - [SonicWall：注意SMA1000网关中的满分 SSRF 漏洞](https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247527276&idx=1&sn=7776586a7fd71f15af5a7d30a2d0dc00)
-  - [Atlassian：注意 Jira 和 Confluence 中严重的文件访问漏洞](https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247527276&idx=2&sn=fffe54f34617a105bf69ca8b2af8606b)
-- 数世咨询
-  - [AI 正在重塑网络安全职场的 5 种方式：初级岗位被压缩，判断力更值钱](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247544090&idx=1&sn=eedb6d887a836de50be53cee5b5062aa)
-- 补天平台
-  - [榜单冲分提速！10+公益组织上新，GROW计划二期奖励升级！](https://mp.weixin.qq.com/s?__biz=MzI2NzY5MDI3NQ==&mid=2247511223&idx=1&sn=8b786a76e58b8d4d930e5dfb19182326)
-  - [一文读懂“GROW计划“三大挖洞赛道！](https://mp.weixin.qq.com/s?__biz=MzI2NzY5MDI3NQ==&mid=2247511223&idx=2&sn=638d8fb0c91800e0ec4d5782d1978f30)
-- 慢雾科技
-  - [威胁情报｜针对 Fomo 用户的恶意书签钓鱼攻击分析](https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247506324&idx=1&sn=92b7f32ab81881fecc8b7c5d3a45651e)
-- 极客公园
-  - [他做了一块 AI 墨水屏，帮你重建生活主线，红杉、线性都投了](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653114532&idx=1&sn=ad82b383e88182985a645ce0ca91e1f9)
-  - [ChatGPT 推出全新 IUI 界面；谷歌推出试验性 AI 游戏平台 Playground；苹果被曝联合 LG 开发门锁、摄像头等智能家居配件｜极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653114528&idx=1&sn=59cecc7a6c25ae5d36d2febefd97c464)
-  - [派拉蒙 1100 亿美元收购时代华纳；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude｜极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653114510&idx=1&sn=50189ec6aaf86b749165dcf4a1e83d44)
-- 安全牛
-  - [CISA停更漏洞周报背后：漏洞管理从“看CVSS分数”转向“看真实风险”，一线团队如何落地？](https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651142883&idx=1&sn=061739b962dd3fa9785fe886e3287086)
-  - [AI垃圾漏洞报告泛滥，Google暂停部分开源漏洞赏金产品漏洞提报；美国组建超级智能工作组：聚焦技术融合下AI与量子领域网络安全挑战| 牛览](https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651142883&idx=2&sn=89d35798fb0fa6c659733d55db2fb7e1)
-- Technical Information Security Content & Discussion
-  - [I found yet another way to invoke JavaScript functions without parentheses](https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/)
-  - [CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE](https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/)
-- CIO
-  - [5 rules CIOs must rewrite for the frontier AI era](https://www.cio.com/article/4232556/5-rules-cios-must-rewrite-for-the-frontier-ai-era.html)
-  - [I audited an award-winning AI project. The case study left out the cloud bill](https://www.cio.com/article/4232005/i-audited-an-award-winning-ai-project-the-case-study-left-out-the-cloud-bill.html)
-  - [Why product management’s org placement shapes its success](https://www.cio.com/article/4232003/why-product-managements-org-placement-shapes-its-success.html)
-  - [Your employees are building AI agents. Do you know what they’re doing?](https://www.cio.com/article/4230240/your-employees-are-building-ai-agents-do-you-know-what-theyre-doing.html)
-  - [From petrodollar to AI currency: Who will control the money of the agentic economy?](https://www.cio.com/article/4232001/from-petrodollar-to-ai-currency-who-will-control-the-money-of-the-agentic-economy.html)
-  - [Best project management certifications of 2026](https://www.cio.com/article/230398/top-project-management-certifications.html)
-  - [Is your architecture preventing you from calculating AI value?](https://www.cio.com/article/4231999/is-your-architecture-preventing-you-from-calculating-ai-value.html)
-  - [AMD’s plan to boost production could ease AI supply chain concerns](https://www.cio.com/article/4231790/amds-plan-to-boost-production-could-ease-ai-supply-chain-concerns.html)
-  - [AI is making software cheap to build. Is your organization ready for what comes next?](https://www.cio.com/article/4231346/ai-is-making-software-cheap-to-build-is-your-organization-ready-for-what-comes-next.html)
-  - [SAP to acquire TechWolf to augment its SuccessFactors HCM platform](https://www.cio.com/article/4231753/sap-to-acquire-techwolf-to-augment-its-successfactors-hcm-platform.html)
-  - [Moving off legacy in a regulated business without breaking it](https://www.cio.com/article/4231327/moving-off-legacy-in-a-regulated-business-without-breaking-it.html)
-  - [AI governance’s real gap is accountability, not technology](https://www.cio.com/article/4223342/ai-governances-real-gap-is-accountability-not-technology.html)
-  - [AI is making software testing cheap. Quality judgment is becoming more valuable](https://www.cio.com/article/4231324/ai-is-making-software-testing-cheap-quality-judgment-is-becoming-more-valuable.html)
-  - [10 types of ambidextrous leadership required in the AI era](https://www.cio.com/article/4231297/10-types-of-ambidextrous-leadership-required-in-the-ai-era.html)
-- 字节跳动技术团队
-  - [用Agent Plan解锁AI导演体验：通过CUA搭Blender白模指导武侠视频生成](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522909&idx=1&sn=82ca1c732c0de74e3530284c6c4df3f1)
-- 谛听ditecting
-  - [谛听 工控安全月报 | 9月](https://mp.weixin.qq.com/s?__biz=MzU3MzQyOTU0Nw==&mid=2247503872&idx=1&sn=ed70202a427e87d221765630f1de09ce)
-- 安全行者老霍
-  - [AI 的第三次浪潮：协同工作同事打破了曾对 Agent 有效的安全模型](https://mp.weixin.qq.com/s?__biz=Mzg3NjU4MDI4NQ==&mid=2247486912&idx=1&sn=1ca603f330a395b6989baf16e4e395fe)
-- 火绒安全
-  - [火绒安全终端防护数据月报（2026-09）](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247538083&idx=1&sn=c4949f409382d46e0eaa9d1ab16b7577)
-  - [火绒小问答--「个人版」近期top问题解答](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247538083&idx=2&sn=2d84517514b356a5029feabae281c4a2)
-  - [寒露 | 柿红露白 网安相伴](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247538083&idx=3&sn=470c05273ef2252829856ae9ab7dd7de)
-  - [诚邀渠道合作伙伴共启新征程](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247538083&idx=4&sn=d96cd47bd83e6bde7986d163dce6896d)
 - Talkback Tech
   - [HackerOne disclosed on HackerOne: HackerOne Code: a live password... [app]](https://hackerone.com/reports/4071670)
   - [MariaDB disclosed on HackerOne: MariaDB HandlerSocket Improper... [app]](https://hackerone.com/reports/3867363)
@@ -180,14 +123,44 @@
   - [GitHub - facebookincubator/bpfjailer: eBPF LSM based Mandatory Access Control and jailer [app] [sys]](https://github.com/facebookincubator/bpfjailer)
   - [CVE-2026-102489: Zammad Session Leak to RCE [app] [exp] [net]](https://horizon3.ai/attack-research/disclosures/cve-2026-102489-zammad-session-leak-rce/)
   - [DiagNG: capture 2G/3G/4G/5G air interface traces to PCAP [net]](https://www.p1sec.com/blog/presenting-diagng-open-source-qcsuper-successor)
-- 奇安信 CERT
-  - [【已复现】Atlassian 多款产品任意文件读取漏洞(CVE-2026-21589)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247507726&idx=1&sn=36c4d678942c850f237ddc8c51a7af7a)
-- 丁爸 情报分析师的工具箱
-  - [情报分析师培训课程（三）情报学科与全源分析（3）](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651157688&idx=1&sn=d497a650ea96998cbcde43e8dad2e9c5)
-- 网络空间安全科学学报
-  - [重磅预告 | 贾焰研究员将在2026年网络空间安全学术会议作主旨报告](https://mp.weixin.qq.com/s?__biz=MzI0NjU2NDMwNQ==&mid=2247510034&idx=2&sn=fa093343f0e0dc1e6a02bf3267172fe3)
-- 安全419
-  - [安全419｜一周国际网安资讯：AI智能体越权连环曝光 高危漏洞密集修复](https://mp.weixin.qq.com/s?__biz=MzUyMDQ4OTkyMg==&mid=2247555760&idx=1&sn=f836cf79e767017812a4332f67ef85df)
+- 黑鸟
+  - [一环扣一环的求职骗局，从简历投递到内网隧道完整入侵](https://mp.weixin.qq.com/s?__biz=MzAxOTM1MDQ1NA==&mid=2451189173&idx=1&sn=920a0ccc154ccdb3445c3e3c1a3d8648)
+- darkreading
+  - [Writing the Next Chapter](https://www.darkreading.com/cybersecurity-operations/writing-next-chapter)
+  - [Australian Gov't Weighs Mandatory AI Incident Reporting](https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting)
+  - [Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives](https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives)
+  - [Anthropic Gives Vetted Defenders Fewer Claude Guardrails](https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails)
+  - [OpenAI Agent Escape Causes Wikimedia Service Outage](https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage)
+- 代码卫士
+  - [SonicWall：注意SMA1000网关中的满分 SSRF 漏洞](https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247527276&idx=1&sn=7776586a7fd71f15af5a7d30a2d0dc00)
+  - [Atlassian：注意 Jira 和 Confluence 中严重的文件访问漏洞](https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247527276&idx=2&sn=fffe54f34617a105bf69ca8b2af8606b)
+- Microsoft Security Blog
+  - [3 lessons from frontier AI vulnerability research](https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/)
+- 安全内参
+  - [某国全国公民身份数据全部泄露：因人口系统遭异常访问](https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247516679&idx=1&sn=8ceb63d7aad965a082eea0294affd2e7)
+  - [通信即战场：美国智库推演通过打击通信网络实施的对台“网络经济战”](https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247516679&idx=2&sn=5a215e666cb239b8dab1dfab3c5dffe8)
+- 数世咨询
+  - [AI 正在重塑网络安全职场的 5 种方式：初级岗位被压缩，判断力更值钱](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247544090&idx=1&sn=eedb6d887a836de50be53cee5b5062aa)
+- 信息安全国家工程研究中心
+  - [攻击者在钓鱼邮件中隐藏 AI 提示注入](https://mp.weixin.qq.com/s?__biz=MzU5OTQ0NzY3Ng==&mid=2247505327&idx=1&sn=33fc480767000e7b03fabffc85185263)
+- 看雪学苑
+  - [Win11 26H1内核异常体系分析与实验](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622529&idx=1&sn=2083068144c170ff5bcd5ff0dfdfa36e)
+  - [CVSS 9.8！思科核心交换机NGOAM漏洞，远程无登录即可拿下最高权限](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622529&idx=2&sn=24a705329f5a1419abeaf7512db4cf55)
+  - [【彩蛋大放送】冰与火的战歌：Windows内核攻防实战](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622529&idx=3&sn=fda47df3683a16a3fa8fe485abb5e7d7)
+  - [SDC2026议题预告 | 从漏洞检测到利用：知识驱动的 RISC-V 硬件安全分析技术](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622478&idx=1&sn=7a92ebdda86657e461928698f749424a)
+  - [当漏洞挖掘遇上 AI Agent：主流企业防火墙 0day 挖掘实战](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458622478&idx=2&sn=2493f1ae2222a727e9420c80bc719906)
+- 补天平台
+  - [榜单冲分提速！10+公益组织上新，GROW计划二期奖励升级！](https://mp.weixin.qq.com/s?__biz=MzI2NzY5MDI3NQ==&mid=2247511223&idx=1&sn=8b786a76e58b8d4d930e5dfb19182326)
+  - [一文读懂“GROW计划“三大挖洞赛道！](https://mp.weixin.qq.com/s?__biz=MzI2NzY5MDI3NQ==&mid=2247511223&idx=2&sn=638d8fb0c91800e0ec4d5782d1978f30)
+- 安全分析与研究
+  - [AI完整CyberKillChain可行性评估](https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247497260&idx=1&sn=64e49cc6f7f9a371f5f98ae21168679a)
+- 极客公园
+  - [他做了一块 AI 墨水屏，帮你重建生活主线，红杉、线性都投了](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653114532&idx=1&sn=ad82b383e88182985a645ce0ca91e1f9)
+  - [ChatGPT 推出全新 IUI 界面；谷歌推出试验性 AI 游戏平台 Playground；苹果被曝联合 LG 开发门锁、摄像头等智能家居配件｜极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653114528&idx=1&sn=59cecc7a6c25ae5d36d2febefd97c464)
+  - [派拉蒙 1100 亿美元收购时代华纳；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude｜极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653114510&idx=1&sn=50189ec6aaf86b749165dcf4a1e83d44)
+- 安全牛
+  - [CISA停更漏洞周报背后：漏洞管理从“看CVSS分数”转向“看真实风险”，一线团队如何落地？](https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651142883&idx=1&sn=061739b962dd3fa9785fe886e3287086)
+  - [AI垃圾漏洞报告泛滥，Google暂停部分开源漏洞赏金产品漏洞提报；美国组建超级智能工作组：聚焦技术融合下AI与量子领域网络安全挑战| 牛览](https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651142883&idx=2&sn=89d35798fb0fa6c659733d55db2fb7e1)
 - 安全圈
   - [【安全圈】SonicWall曝10分满分漏洞：无需凭据直穿内网核心](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652079285&idx=1&sn=40d7e7b43c34047213b376da287167d1)
   - [【安全圈】大模型缓存LMCache曝严重0day：无补丁直接RCE](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652079285&idx=2&sn=5e9f5b16350c4daf6a1e4984eaf8184b)
@@ -195,3 +168,26 @@
   - [【安全圈】百余网站遭挂马植入伪Cloudflare：智能合约派发木马](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652079274&idx=1&sn=15cf3e01caa2b91119ad90f970c2db20)
   - [【安全圈】Anthropic放开Claude安全限制：实测挖出12.9万漏洞引发争议](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652079274&idx=2&sn=2ac9ed707c794a32564ec1e4c3ba5722)
   - [【安全圈】伪造ChatGPT与Claude广告后台：真人操盘钓鱼收割MFA令牌](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652079274&idx=3&sn=d6e6368a840032a5ddfe2bf7bb4cdd84)
+- 奇安信威胁情报中心
+  - [偷完受害者再偷"老板"：一个勒索软件加盟者利用MCP黑吃黑的双面生意](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247520767&idx=1&sn=d30679668e26fb120a045590129ad72d)
+- 网络空间安全科学学报
+  - [重磅预告 | 贾焰研究员将在2026年网络空间安全学术会议作主旨报告](https://mp.weixin.qq.com/s?__biz=MzI0NjU2NDMwNQ==&mid=2247510034&idx=2&sn=fa093343f0e0dc1e6a02bf3267172fe3)
+- 火绒安全
+  - [火绒安全终端防护数据月报（2026-09）](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247538083&idx=1&sn=c4949f409382d46e0eaa9d1ab16b7577)
+  - [火绒小问答--「个人版」近期top问题解答](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247538083&idx=2&sn=2d84517514b356a5029feabae281c4a2)
+  - [寒露 | 柿红露白 网安相伴](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247538083&idx=3&sn=470c05273ef2252829856ae9ab7dd7de)
+  - [诚邀渠道合作伙伴共启新征程](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247538083&idx=4&sn=d96cd47bd83e6bde7986d163dce6896d)
+- 慢雾科技
+  - [威胁情报｜针对 Fomo 用户的恶意书签钓鱼攻击分析](https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247506324&idx=1&sn=92b7f32ab81881fecc8b7c5d3a45651e)
+- 字节跳动技术团队
+  - [用Agent Plan解锁AI导演体验：通过CUA搭Blender白模指导武侠视频生成](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522909&idx=1&sn=82ca1c732c0de74e3530284c6c4df3f1)
+- 奇安信 CERT
+  - [【已复现】Atlassian 多款产品任意文件读取漏洞(CVE-2026-21589)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247507726&idx=1&sn=36c4d678942c850f237ddc8c51a7af7a)
+- 谛听ditecting
+  - [谛听 工控安全月报 | 9月](https://mp.weixin.qq.com/s?__biz=MzU3MzQyOTU0Nw==&mid=2247503872&idx=1&sn=ed70202a427e87d221765630f1de09ce)
+- 安全行者老霍
+  - [AI 的第三次浪潮：协同工作同事打破了曾对 Agent 有效的安全模型](https://mp.weixin.qq.com/s?__biz=Mzg3NjU4MDI4NQ==&mid=2247486912&idx=1&sn=1ca603f330a395b6989baf16e4e395fe)
+- 安全419
+  - [安全419｜一周国际网安资讯：AI智能体越权连环曝光 高危漏洞密集修复](https://mp.weixin.qq.com/s?__biz=MzUyMDQ4OTkyMg==&mid=2247555760&idx=1&sn=f836cf79e767017812a4332f67ef85df)
+- 丁爸 情报分析师的工具箱
+  - [情报分析师培训课程（三）情报学科与全源分析（3）](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651157688&idx=1&sn=d497a650ea96998cbcde43e8dad2e9c5)
