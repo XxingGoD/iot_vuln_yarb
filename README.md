@@ -54,7 +54,7 @@ $ nohup ./yarb.py --cron 11:00 > run.log 2>&1 &
 
 启用 IoT 的 LLM 分析时，在 Settings → Secrets and variables → Actions 中添加 `OPENAI_API_KEY`，并在 `config.json` 中配置对应服务的 `llm.base_url` 和 `llm.model`。工作流会将 Secret 传入程序；不要把真实 API 密钥提交到仓库。
 
-当前 `config.json` 的 `llm.base_url` 为 `https://hanhaoshuai.dpdns.org/v1`，`llm.model` 为 `gpt-6-luna`；API 密钥需要与该服务匹配。基础地址必须包含 `/v1`，否则聊天请求会返回网站 HTML，而非 API JSON。
+当前 `config.json` 的 `llm.base_url` 为 `https://hanhaoshuai.dpdns.org/v1/`，`llm.model` 为 `gpt-6-luna`；API 密钥需要与该服务匹配。基础地址必须包含 `/v1/`（保留末尾斜杠），使模块级 OpenAI 客户端正确拼接 `/v1/chat/completions`，而非返回网站 HTML 的路径。
 
 目前支持的推送机器人及对应的 secrets：
 
